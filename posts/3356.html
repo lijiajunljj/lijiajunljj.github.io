@@ -1,694 +1,131 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-  <!-- 元数据 -->
-  <meta charset="utf-8">
-  <link rel="icon" href="/favicon.png">
-  <title>使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】 | lijiakaijun</title>
-  <meta name="author" content="lijiakaijun" />
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="robots" content="index,follow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="format-detection" content="telphone=no, email=no" />
-  
-    <meta name="keywords" content="Windows, 内网映射, 远程桌面" />
-  
-  <meta name="description" content="-1.前言由于Sakura Frp升级，[原教程](https:&#x2F;&#x2F;lijiajujljj.github.io&#x2F;post&#x2F;sakurafrp-yuanchengzhuomain)已在2月份作废（除了手机端上的操作），此为重置版  （我太难了） 0.需要准备的东西一台无外网ip的电脑（这里我用Windows端进行演示） 一个Sakura Frp账号（旧账号请自行在登陆界面通过指引解决登陆问题） 1.">
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】</title>
+  <meta name="description" content="-1.前言由于Sakura Frp升级，原教程已在2月份作废（除了手机端上的操作），此为重置版 （我太难了） 0.需要准备的东西一台无外网ip的电脑（这里我用Windows端进行演示） 一个Sakura Frp账号（旧账号请自行在登陆界面通过指引解决登陆问题） 1.创造一个新的隧道 在Sakura Frp上登陆你的账号后进入管理界面   说下剩余流量的事剩余流量可以通过旁边的“每日签到”来增加，具">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】">
-<meta property="og:url" content="https://lijiakaijun.me/posts/3356.html">
+<meta property="og:url" content="https://blog.lijiakaijun.cyou/posts/3356.html">
 <meta property="og:site_name" content="lijiakaijun">
-<meta property="og:description" content="-1.前言由于Sakura Frp升级，[原教程](https:&#x2F;&#x2F;lijiajujljj.github.io&#x2F;post&#x2F;sakurafrp-yuanchengzhuomain)已在2月份作废（除了手机端上的操作），此为重置版  （我太难了） 0.需要准备的东西一台无外网ip的电脑（这里我用Windows端进行演示） 一个Sakura Frp账号（旧账号请自行在登陆界面通过指引解决登陆问题） 1.">
+<meta property="og:description" content="-1.前言由于Sakura Frp升级，原教程已在2月份作废（除了手机端上的操作），此为重置版 （我太难了） 0.需要准备的东西一台无外网ip的电脑（这里我用Windows端进行演示） 一个Sakura Frp账号（旧账号请自行在登陆界面通过指引解决登陆问题） 1.创造一个新的隧道 在Sakura Frp上登陆你的账号后进入管理界面   说下剩余流量的事剩余流量可以通过旁边的“每日签到”来增加，具">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://lijiakaijun.me/posts/3356.htmlhttps:/cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/img/p3YDtfQimFaqw1e.webp">
-<meta property="article:published_time" content="2020-02-11T00:00:00.000Z">
-<meta property="article:modified_time" content="2020-11-28T02:36:18.000Z">
+<meta property="og:image" content="https://lijiakaijun.me/favicon.png">
+<meta property="article:published_time" content="2020-02-11T12:46:18.000Z">
+<meta property="article:modified_time" content="2021-03-12T12:36:23.725Z">
 <meta property="article:author" content="lijiakaijun">
 <meta property="article:tag" content="Windows">
 <meta property="article:tag" content="内网映射">
 <meta property="article:tag" content="远程桌面">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://lijiakaijun.me/posts/3356.htmlhttps:/cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/img/p3YDtfQimFaqw1e.webp">
-<meta name="twitter:site" content="@lijiakaijun">
-  <link rel="alternate" href="/atom.xml" type="application/atom+xml">
-  <!-- 站点验证相关 -->
-  
+<meta name="twitter:image" content="https://lijiakaijun.me/favicon.png">
+   
+      <meta name="google-site-verification" content="jOi4iM44VrK4ENrdczDx_VtNqHH22-OANeJ79eH_nC8">
     
     
+      <meta name="baidu-site-verification" content="code-mvq5mLso9B">
     
-      <meta name="msvalidate.01" content="37B06BA3B108C8529420F89DC3BD917C" />
     
-  
-  <!-- 样式表文件 -->
-  <link rel="stylesheet" id="kratos-css" href="https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/css/kratosr.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="highlight-css" href="https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/css/highlight.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="fontawe-css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="nprogress-css" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" type="text/css" media="all">
-  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2.6/dist/disqusjs.css">
-  
-  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-  
-  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-  
-  
-    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
-  
-  <!-- 不得不预先加载的一些JS文件 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-  
-    <script src="https://cdn.jsdelivr.net/npm/qrcode_js@1.0.0/qrcode.min.js"></script>
-  
-  
-    <script src="https://cdn.jsdelivr.net/npm/disqusjs@1.2.6/dist/disqus.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147974252-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <meta name="msvalidate.01" content="37B06BA3B108C8529420F89DC3BD917C">
+    
 
-  gtag('config', 'UA-147974252-3');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147974252-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<meta name="generator" content="Hexo 5.2.0"></head>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-147974252-3');
+  </script>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css/github-markdown.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="lijiakaijun" type="application/atom+xml">
+</head>
 
-
-    <body class="custom-background">
-        <div id="kratos-wrapper">
-    <div id="kratos-page">
-        <div id="kratos-header">
-            <div class="nav-toggle"><a class="kratos-nav-toggle js-kratos-nav-toggle"><i></i></a></div>
-            <header id="kratos-header-section">
-                <div class="container">
-                    <div class="nav-header">
-                        <div class="color-logo"><a href="/">lijiakaijun</a></div>
-                        <nav id="kratos-menu-wrap">
-                            <ul id="kratos-primary-menu" class="sf-menu">
-                            
-                            
-                                <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
-                            
-                            
-                            
-                                <li><a href="/archives/"><i class="fa fa-file"></i>档案馆</a></li>
-                            
-                            
-                            
-                                <li>
-                                <a><i class="fa fa-link"></i>链接</a>
-                                <ul class="sub-menu">
-                                    
-                                    
-                                    
-                                    
-                                        <li><a href="/friends">友链</a></li>
-                                    
-                                    
-                                    
-                                        <li><a target="_blank" rel="noopener" href="https://candinya.com">作者博客</a></li>
-                                    
-                                    
-                                    
-                                        <li><a target="_blank" rel="noopener" href="https://github.com/Candinya/Kratos-Rebirth">项目链接</a></li>
-                                    
-                                    
-                                </ul>
-                                </li>
-                            
-                            
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-        </div>
-        <div class="kratos-start kratos-hero-2">
-            <!-- <div class="kratos-overlay"></div> -->
-            <div class="kratos-cover kratos-cover-2 text-center">
-                <div class="desc desc2 animate-box">
-                    <a href="/"><h2>lijiakaijun</h2><br><span>lijiakaijun</span></a>
-                </div>
-            </div>
-        </div>
-
-        <div id="kratos-blog-post">
-            <div class="container">
-                    <div class="row">
-                        
-        <div id="main">
-            <section class="col-md-8">
-    <article>
-        <div class="kratos-hentry kratos-post-inner clearfix">
-            <header class="kratos-entry-header">
-                <h1 class="kratos-entry-title text-center">使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】</h1>
-                
-                <div class="kratos-post-meta text-center">
-                    <span>
-                        <i class="fa fa-calendar"></i> 2020-02-11
-                        <i class="fa fa-folder"></i> 分类于 
-                        <i class="fa fa-user"></i> 作者 lijiakaijun
-                        <i class="fa fa-edit"></i> 
-                        
-                        
-                            964
-                        
-                        字
-                        
-                    </span>
-                </div>
-            </header>
-            <div class="kratos-post-content">
-                
-                    <div class="kratos-post-inner-toc">
-                        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">-1.前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E7%9A%84%E4%B8%9C%E8%A5%BF"><span class="toc-number">2.</span> <span class="toc-text">0.需要准备的东西</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%88%9B%E9%80%A0%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E9%9A%A7%E9%81%93"><span class="toc-number">3.</span> <span class="toc-text">1.创造一个新的隧道</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%AA%E9%9A%A7%E9%81%93"><span class="toc-number">4.</span> <span class="toc-text">2.启动一个隧道</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%A6GUI%E5%90%AF%E5%8A%A8%E5%99%A8%E7%89%88%E6%9C%AC"><span class="toc-number">4.1.</span> <span class="toc-text">带GUI启动器版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#cmd%E7%89%88%E6%9C%AC"><span class="toc-number">4.2.</span> <span class="toc-text">cmd版本</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%87%92%E5%BE%97%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BD%86%E5%8F%88%E8%A6%81%E5%88%9B%E9%80%A0%E4%B8%80%E4%B8%AA%E9%9A%A7%E9%81%93%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">3.懒得打开浏览器但又要创造一个隧道的方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%9C%A8%E5%85%B6%E4%BB%96%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%BF%9B%E8%A1%8C%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5"><span class="toc-number">6.</span> <span class="toc-text">4.在其他设备上进行远程桌面连接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98-O-O"><span class="toc-number">7.</span> <span class="toc-text">5.一些问题(O_O)?</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86%EF%BC%8C%E6%8F%90%E7%A4%BA%E8%AF%B4%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%94%99%E8%AF%AF"><span class="toc-number">7.1.</span> <span class="toc-text">无法登陆，提示说请求服务器错误</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E9%87%8C%E5%A5%BD%E5%83%8F%E6%B2%A1%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98%E4%BA%86%E2%80%A6%E2%80%A6"><span class="toc-number">8.</span> <span class="toc-text">这里好像没其他问题了……</span></a></li></ol>
-                    </div>
-                
-                <hr />
-                <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="-1.前言"></a>-1.前言</h2><div class="alert alert-info">由于Sakura Frp升级，[原教程](https://lijiajujljj.github.io/post/sakurafrp-yuanchengzhuomain)已在2月份作废（除了手机端上的操作），此为重置版</div>
-
+<body>
+  <div class="page">
+  <div class="title">使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】</div>
+  <div class="content markdown-body"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="-1.前言"></a>-1.前言</h2><p>由于Sakura Frp升级，<a target="_blank" rel="noopener" href="https://lijiajujljj.github.io/post/sakurafrp-yuanchengzhuomain">原教程</a>已在2月份作废（除了手机端上的操作），此为重置版</p>
 <p>（我太难了）</p>
 <h2 id="0-需要准备的东西"><a href="#0-需要准备的东西" class="headerlink" title="0.需要准备的东西"></a>0.需要准备的东西</h2><pre><code>一台无外网ip的电脑（这里我用Windows端进行演示）
 一个Sakura Frp账号（旧账号请自行在登陆界面通过指引解决登陆问题）</code></pre>
-<h2 id="1-创造一个新的隧道"><a href="#1-创造一个新的隧道" class="headerlink" title="1.创造一个新的隧道"></a>1.创造一个新的隧道</h2><p><img src="https://i.loli.net/2020/01/11/p3YDtfQimFaqw1e.png" alt="111.PNG"></p>
+<h2 id="1-创造一个新的隧道"><a href="#1-创造一个新的隧道" class="headerlink" title="1.创造一个新的隧道"></a>1.创造一个新的隧道</h2><p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/p3YDtfQimFaqw1e.webp" alt="111.webp"></p>
 <p>在<a target="_blank" rel="noopener" href="https://www.natfrp.com/">Sakura Frp</a>上登陆你的账号后进入管理界面</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/lNXzimQbFdYgu94.webp" alt="Snipaste_2020-02-11_20-57-41.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/lNXzimQbFdYgu94.webp" alt="Snipaste_2020-02-11_20-57-41.webp"></p>
 <blockquote>
 <p>说下剩余流量的事<br>剩余流量可以通过旁边的“每日签到”来增加，具体增加流量看那个界面的签到说明</p>
 </blockquote>
 <p>点击旁边的“新建隧道”</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/7AWkBrh9ETDKqZI.webp" alt="Snipaste_2020-02-11_19-38-23.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/7AWkBrh9ETDKqZI.webp" alt="Snipaste_2020-02-11_19-38-23.webp"></p>
 <p>然后新建一个隧道（这里我不说了，自行看图）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/8jdrups6PcmGD3J.webp" alt="Snipaste_2020-02-11_19-45-29.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/oCpBejw8NaY7fsb.webp" alt="Snipaste_2020-02-11_19-49-15.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/8jdrups6PcmGD3J.webp" alt="Snipaste_2020-02-11_19-45-29.webp"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/oCpBejw8NaY7fsb.webp" alt="Snipaste_2020-02-11_19-49-15.webp"></p>
 <p>创造成功后点击旁边的“软件下载”下载软件</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/PKW3TInHOX2YUzA.webp" alt="Snipaste_2020-02-11_20-21-08.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/PKW3TInHOX2YUzA.webp" alt="Snipaste_2020-02-11_20-21-08.webp"></p>
 <p>选择下载版本</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/PLAVdQE7kfYKhSi.webp" alt="Snipaste_2020-02-11_20-22-00.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/PLAVdQE7kfYKhSi.webp" alt="Snipaste_2020-02-11_20-22-00.webp"></p>
 <p>下载后会获得一个压缩包</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/nLDzI9RJ8Sfst4x.webp" alt="Snipaste_2020-02-11_20-25-59.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/nLDzI9RJ8Sfst4x.webp" alt="Snipaste_2020-02-11_20-25-59.webp"></p>
 <p>解压后获得的文件：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/QJVjct4kRvml9hu.webp" alt="Snipaste_2020-02-11_20-26-38.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/QJVjct4kRvml9hu.webp" alt="Snipaste_2020-02-11_20-26-38.webp"></p>
 <p>如果是下载cmd界面，会获得这个文件</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/CaK6qdVlU32urpo.webp" alt="Snipaste_2020-02-11_20-26-07.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/CaK6qdVlU32urpo.webp" alt="Snipaste_2020-02-11_20-26-07.webp"></p>
 <p>接下来，我会分别使用cmd版本和带GUI启动器版本进行演示</p>
 <h2 id="2-启动一个隧道"><a href="#2-启动一个隧道" class="headerlink" title="2.启动一个隧道"></a>2.启动一个隧道</h2><p>先知道自己的访问秘钥，才能进行下一步的操作</p>
 <p>获得秘钥的方法：</p>
 <p>点击旁边的“用户信息”，即可看到秘钥</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/qLzeZ9SIjkRoElW.webp" alt="Snipaste_2020-02-11_20-24-46.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/qLzeZ9SIjkRoElW.webp" alt="Snipaste_2020-02-11_20-24-46.webp"></p>
 <p>（其实管理面板的主页也有访问秘钥滴~在这就不放截图了）</p>
 <h3 id="带GUI启动器版本"><a href="#带GUI启动器版本" class="headerlink" title="带GUI启动器版本"></a>带GUI启动器版本</h3><p>打开软件，输入秘钥，点击登录，选择隧道，启动！</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/BKD1gmH6qjMfrIR.webp" alt="Snipaste_2020-02-11_20-44-27.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/BKD1gmH6qjMfrIR.webp" alt="Snipaste_2020-02-11_20-44-27.webp"></p>
 <p>当你看到一个cmd界面和一个弹窗（提示）时，代表着隧道已经开始启动了</p>
 <p>然后看到“隧道成功启动”字样时，代表着启动成功了~</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/M65zAaKGylWCp3B.webp" alt="Snipaste_2020-02-11_20-41-19.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/M65zAaKGylWCp3B.webp" alt="Snipaste_2020-02-11_20-41-19.webp"></p>
 <p>（就是这么简单~）</p>
 <h3 id="cmd版本"><a href="#cmd版本" class="headerlink" title="cmd版本"></a>cmd版本</h3><p>打开软件，输入秘钥，回车</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/mp2KIw5baZWrhGJ.webp" alt="Snipaste_2020-02-11_20-30-01.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/mp2KIw5baZWrhGJ.webp" alt="Snipaste_2020-02-11_20-30-01.webp"></p>
 <p>登录成功后输入与你创造的隧道相同的服务器ID，然后回车</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/tg3x4YGERvA7JcM.webp" alt="Snipaste_2020-02-11_20-32-42.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/tg3x4YGERvA7JcM.webp" alt="Snipaste_2020-02-11_20-32-42.webp"></p>
 <p>看到这些东西时，说明启动成功</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/EeXMvc63GzhofFC.webp" alt="Snipaste_2020-02-11_20-35-42.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/EeXMvc63GzhofFC.webp" alt="Snipaste_2020-02-11_20-35-42.webp"></p>
 <h2 id="3-懒得打开浏览器但又要创造一个隧道的方法"><a href="#3-懒得打开浏览器但又要创造一个隧道的方法" class="headerlink" title="3.懒得打开浏览器但又要创造一个隧道的方法"></a>3.懒得打开浏览器但又要创造一个隧道的方法</h2><blockquote>
 <p>注意<br>你需要提前下载带GUI界面的文件，并且已经登录过（注意“保留用户数据”这个选项已经打上了√）</p>
 </blockquote>
 <p>启动软件，点击旁边的“快速新建隧道”选择项</p>
 <p>后面我不说了，自行看图↓</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/OQJLKA2Tp8covub.webp" alt="Snipaste_2020-02-11_20-42-45.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/OQJLKA2Tp8covub.webp" alt="Snipaste_2020-02-11_20-42-45.webp"></p>
 <h2 id="4-在其他设备上进行远程桌面连接"><a href="#4-在其他设备上进行远程桌面连接" class="headerlink" title="4.在其他设备上进行远程桌面连接"></a>4.在其他设备上进行远程桌面连接</h2><p>这里我有时间再写，在手机端上的操作可以看之前的那篇</p>
 <h2 id="5-一些问题-O-O"><a href="#5-一些问题-O-O" class="headerlink" title="5.一些问题(O_O)?"></a>5.一些问题(O_O)?</h2><p>（如果是真 · 解决不了问题的话，那就自己去官网那边问）</p>
 <h3 id="无法登陆，提示说请求服务器错误"><a href="#无法登陆，提示说请求服务器错误" class="headerlink" title="无法登陆，提示说请求服务器错误"></a>无法登陆，提示说请求服务器错误</h3><p>如图所示=_=</p>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/ovy5VRNlgaeWYw9.webp" alt="Snipaste_2020-02-11_20-28-31.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/ovy5VRNlgaeWYw9.webp" alt="Snipaste_2020-02-11_20-28-31.webp"></p>
 <h2 id="这里好像没其他问题了……"><a href="#这里好像没其他问题了……" class="headerlink" title="这里好像没其他问题了……"></a>这里好像没其他问题了……</h2><hr>
-<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/WPSVkMyuNax5ACF.webp" alt="Snipaste_2020-02-11_19-52-13.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/likaijunlkj/wdbktc/WPSVkMyuNax5ACF.webp" alt="Snipaste_2020-02-11_19-52-13.webp"></p>
 <p>哈哈哈哈哈哈哈哈哈xN，笑死我了😂</p>
 <hr>
 <p>没了，到底部了</p>
 <p>此文章于2020年2月11日下午9：35编辑完毕</p>
-
-            </div>
-            
-                <div class="kratos-copyright text-center clearfix">
-                    <h5>本作品采用 <a rel="license nofollow" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
-                </div>
-            
-            <footer class="kratos-entry-footer clearfix">
-                
-                    <div class="post-like-donate text-center clearfix" id="post-like-donate">
-                    
-                        <a class="donate" href="javascript:;"><i class="fa fa-bitcoin"></i> 打赏</a>
-                    
-                    
-                        <a class="share" href="javascript:;"><i class="fa fa-share-alt"></i> 分享</a>
-                        <div class="share-wrap" style="display: none;">
-    <div class="share-group">
-        <a href="javascript:;" class="share-plain qq" onclick="share('qq');" rel="nofollow">
-            <div class="icon-wrap">
-                <i class="fa fa-qq"></i>
-            </div>
-        </a>
-        <a href="javascript:;" class="share-plain qzone" onclick="share('qzone');" rel="nofollow">
-            <div class="icon-wrap">
-                <i class="fa fa-star"></i>
-            </div>
-        </a>
-        <a href="javascript:;" class="share-plain weixin pop style-plain" rel="nofollow">
-            <div class="icon-wrap">
-                <i class="fa fa-weixin"></i>
-            </div>
-            <div class="share-int">
-                <div class="qrcode" id="wechat-qr"></div>
-                <p>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</p>
-            </div>
-        </a>
-        <a href="javascript:;" class="share-plain weibo" onclick="share('weibo');" rel="nofollow">
-            <div class="icon-wrap">
-                <i class="fa fa-weibo"></i>
-            </div>
-        </a>
-        <a href="javascript:;" class="share-plain facebook style-plain" onclick="share('facebook');" rel="nofollow">
-            <div class="icon-wrap">
-                <i class="fa fa-facebook"></i>
-            </div>
-        </a>
-        <a href="javascript:;" class="share-plain twitter style-plain" onclick="share('twitter');" rel="nofollow">
-            <div class="icon-wrap">
-                <i class="fa fa-twitter"></i>
-            </div>
-        </a>
-    </div>
-    <script type="text/javascript">
-        $(()=>{
-            new QRCode("wechat-qr", {
-                text: "https://lijiakaijun.me/posts/3356.html",
-                width: 150,
-                height: 150,
-                correctLevel : QRCode.CorrectLevel.H
-            });
-        });
-        function share(dest) {
-            const qqBase        = "https://connect.qq.com/widget/shareqq/index.html?";
-            const weiboBase     = "https://service.weibo.com/share/share.php?";
-            const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
-            const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
-            const twitterBase   = "https://twitter.com/intent/tweet?";
-            const hostUrl       = "https://lijiakaijun.me/posts/3356.html";
-            const title         = "「使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】」";
-            const excerpt       = `-1.前言由于Sakura Frp升级，[原教程](https://lijiajujljj.github.io/post/sakurafrp-yuanchengzhuomain)已在2月份作废（除了手机端上的操作），此为重置版
-
-（我...`;
-            let _URL;
-            switch (dest) {
-                case "qq"       : _URL = qqBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";     break;
-                case "weibo"    : _URL = weiboBase+"url="+hostUrl+"&title="+title+excerpt;                                 break;
-                case "qzone"    : _URL = qzoneBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";  break;
-                case "facebook" : _URL = facebookBase+"u="+hostUrl;                                                        break;
-                case "twitter"  : _URL = twitterBase+"text="+title+excerpt+"&url="+hostUrl;                                break;
-            }
-            window.open(_URL);
-        };
-    </script>
 </div>
-                    
-                    </div>
-                
-                <div class="footer-tag clearfix">
-                    <div class="pull-left">
-                    <i class="fa fa-tags"></i>
-                        <a class="tag-none-link" href="/tags/Windows/" rel="tag">Windows</a>, <a class="tag-none-link" href="/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/" rel="tag">内网映射</a>, <a class="tag-none-link" href="/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/" rel="tag">远程桌面</a>
-                    </div>
-                    <div class="pull-date">
-                    <span>最后编辑：2020-11-28</span>
-                    </div>
-                </div>
-            </footer>
-        </div>
-        
-            <nav class="navigation post-navigation clearfix" role="navigation">
-                
-                <div class="nav-previous clearfix">
-                    <a title=" 来冒个泡了" href="/posts/46481.html">&lt; 上一篇</a>
-                </div>
-                
-                
-                <div class="nav-next clearfix">
-                    <a title=" 下载腾讯视频" href="/posts/19711.html">下一篇 &gt;</a>
-                </div>
-                
-            </nav>
-        
-        
-            <div>
-  <a target="_blank" href="https://github.com/lijiajunljj/lijiakaijun-blog/edit/master/source/_posts/2020-02-11 20_46_18 使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】.md">文章编辑</a>
-</div>
-<p>
-  点击切换到：<a class="comments-type active">Disqusjs</a> | <a class="comments-type">Valine</a> 评论系统
-</p>
-<style>
-  .comments-mode {
-    display:none
-  }
-  .comments-type.active {
-    background-color:#ff0
-  }
-  .show {
-    display:block
-  }
-</style>
-
-<div class="comments-mode show">
-    <div id="disqus_thread" class="post-comments"></div>
-<script>
-    $(function(){
-        window.DISQUS = null;
-        new DisqusJS({
-            shortname: 'lijiakaijun',
-            siteName: 'lijiakaijun',
-            identifier: 'posts/3356.html',
-            url: 'https://lijiakaijun.me/posts/3356.html',
-            api: 'https://disqus.lijiajunljj.tk/api/',
-            apikey: 'KMU16gOxMF4AX6Is5aKv5O2x8iLiIWY8tVhaokv6vY1KTR9JUrcLCXGxKpuLEDJu',
-            admin: 'lijiakaijun',
-            adminLabel: 'lijia'
-        });
-    });
-</script>
-<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://github.com/SukkaW/DisqusJS">comments powered by DisqusJS.</a></noscript>
 </div>
 
-<div class="comments-mode">
-<div id="v-comments" class="post-comments"></div>
-<script>
-    new Valine({
-        el: '#v-comments',
-        appId: 'GKbU6pAC42Hgci3yzuNYNn0w-MdYXbMMI',
-        appKey: 'OJ56tftp292ntCQW5iLWQboE',
-        visitor: true,
-        path: '/posts/3356.html'
-    });
-</script>
-</div>
-
-<script>
-    var comments_type = document.getElementsByClassName("comments-type")
-    var comments_mode = document.getElementsByClassName("comments-mode")
-    for(var i=0;i<comments_type.length;i++){
-    comments_type[i].index = i; // 储存所有键值
-    comments_type[i].onclick = function(){
-      // 点击事件的实现功能，this就是点击的comments-type
-      for(var j=0;j<comments_type.length;j++){
-          comments_type[j].className = comments_type[j].className.replace(' active', '').trim();
-          comments_mode[j].className = comments_mode[j].className.replace(' show', '').trim();
-      }
-      
-      // 再给应该添加的对象添加className
-      this.className = this.className + ' active';
-      comments_mode[this.index].className = comments_mode[this.index].className + ' show';
-    };
-}
-</script>
-
-        
-    </article>
-</section>
-        </div>
-                
-            <section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
-                
-                    <aside id="krw-about" class="widget widget-kratos-about clearfix">
+  <div class="markdown-body">
     
-    <div class="photo-background"></div>
-    <div class="photo-wrapper clearfix">
-        <div class="photo-wrapper-tip text-center">
-            <img class="about-photo" src="/favicon.png" />
-        </div>
-    </div>
-    <div class="textwidget">
-        
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">-1.前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#0-%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E7%9A%84%E4%B8%9C%E8%A5%BF"><span class="toc-number">2.</span> <span class="toc-text">0.需要准备的东西</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%88%9B%E9%80%A0%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E9%9A%A7%E9%81%93"><span class="toc-number">3.</span> <span class="toc-text">1.创造一个新的隧道</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%AA%E9%9A%A7%E9%81%93"><span class="toc-number">4.</span> <span class="toc-text">2.启动一个隧道</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%A6GUI%E5%90%AF%E5%8A%A8%E5%99%A8%E7%89%88%E6%9C%AC"><span class="toc-number">4.1.</span> <span class="toc-text">带GUI启动器版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#cmd%E7%89%88%E6%9C%AC"><span class="toc-number">4.2.</span> <span class="toc-text">cmd版本</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%87%92%E5%BE%97%E6%89%93%E5%BC%80%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BD%86%E5%8F%88%E8%A6%81%E5%88%9B%E9%80%A0%E4%B8%80%E4%B8%AA%E9%9A%A7%E9%81%93%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">3.懒得打开浏览器但又要创造一个隧道的方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%9C%A8%E5%85%B6%E4%BB%96%E8%AE%BE%E5%A4%87%E4%B8%8A%E8%BF%9B%E8%A1%8C%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5"><span class="toc-number">6.</span> <span class="toc-text">4.在其他设备上进行远程桌面连接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98-O-O"><span class="toc-number">7.</span> <span class="toc-text">5.一些问题(O_O)?</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E6%B3%95%E7%99%BB%E9%99%86%EF%BC%8C%E6%8F%90%E7%A4%BA%E8%AF%B4%E8%AF%B7%E6%B1%82%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%94%99%E8%AF%AF"><span class="toc-number">7.1.</span> <span class="toc-text">无法登陆，提示说请求服务器错误</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E9%87%8C%E5%A5%BD%E5%83%8F%E6%B2%A1%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98%E4%BA%86%E2%80%A6%E2%80%A6"><span class="toc-number">8.</span> <span class="toc-text">这里好像没其他问题了……</span></a></li></ol>
-        
-    </div>
-</aside>
-                
-                    <!-- Moved to about.ejs -->
-                
-                    
-  <aside id="krw-categories" class="widget widget-categories clearfix">
-    <h4 class="widget-title"><i class="fa fa-folder"></i>分类目录</h4>
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B7%B2%E7%BB%8F%E5%85%B3%E9%97%AD%E8%AF%84%E8%AE%BA%E7%9A%84%E6%96%87%E7%AB%A0/">已经关闭评论的文章</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E5%B8%B8/">日常</a><span class="category-list-count">21</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%89%B9%E6%AE%8A/">特殊</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BD%91%E7%AB%99/">网站</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%97%B2%E8%81%8A/">闲聊</a><span class="category-list-count">3</span></li></ul>
-  </aside>
-
-
-                
-                    
-  <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
-    <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
-      <div class="tag-clouds">
-        <a href="/tags/Bilibili/" style="font-size: 0.6em;">Bilibili</a> <a href="/tags/Cloudflare/" style="font-size: 0.6em;">Cloudflare</a> <a href="/tags/Github/" style="font-size: 0.71em;">Github</a> <a href="/tags/Hexo/" style="font-size: 0.66em;">Hexo</a> <a href="/tags/Minecraft/" style="font-size: 0.63em;">Minecraft</a> <a href="/tags/PicGo/" style="font-size: 0.6em;">PicGo</a> <a href="/tags/SSL/" style="font-size: 0.6em;">SSL</a> <a href="/tags/Windows/" style="font-size: 0.74em;">Windows</a> <a href="/tags/deepin/" style="font-size: 0.6em;">deepin</a> <a href="/tags/jsDelivr/" style="font-size: 0.66em;">jsDelivr</a> <a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 0.6em;">下载</a> <a href="/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/" style="font-size: 0.6em;">内网映射</a> <a href="/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/" style="font-size: 0.63em;">内网穿透</a> <a href="/tags/%E5%B0%9D%E8%AF%95%E5%A4%B1%E8%B4%A5/" style="font-size: 0.6em;">尝试失败</a> <a href="/tags/%E6%9B%B4%E6%96%B0/" style="font-size: 0.6em;">更新</a> <a href="/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/" style="font-size: 0.8em;">有隐藏内容</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 0.77em;">笔记</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 0.69em;">网站</a>
-      </div>
-  </aside>
-
-                
-                    
-  <aside id="krw-posts" class="widget widget-kratos-poststab">
-  <h4 class="widget-title"><i class="fa fa-file"></i>最新文章</h4>
-  <div class="tab-content">
-      <ul class="list-group">
-        
-        
-          
-          
-        
-          
-          
-            <a class="list-group-item" href="/posts/62901.html"><i class="fa  fa-book"></i> 一年多以来我拿着OPPO A37t干了什么？</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/posts/43943.html"><i class="fa  fa-book"></i> 测试Hexo在Github上在线编辑并自动推送到Github Pages</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/posts/8807.html"><i class="fa  fa-book"></i> 暂时解决使用Kratos-Rebirth主题后Artalk评论出现问题的一些办法</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/posts/58458.html"><i class="fa  fa-book"></i> 记录初三的生活</a>
-            
-          
-        
-          
-          
-            <a class="list-group-item" href="/posts/54144.html"><i class="fa  fa-book"></i> 暑假最后一天了，然后......</a>
-            
-          
-        
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-      </ul>
+    主题刚换还没来得及完善，评论什么的后面再说<br><span id="busuanzi_container_site_pv">&nbsp;&nbsp;|&nbsp;&nbsp;<li>本站总访问量<span id="busuanzi_value_site_pv"></span>次</li></span><span id="busuanzi_container_site_uv">&nbsp;&nbsp;|&nbsp;&nbsp;<li>本站访客数<span id="busuanzi_value_site_uv"></span>人次</li></span><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <br>
+    
+    <small>© 2020 <a href="/">lijiakaijun</a> - Powered By <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> And <a target="_blank" rel="noopener" href="https://github.com/Anillc/merry">Merry</a></small>
   </div>
-  </aside>
+</body>
 
-                
-            </section>
-        
-        </div>
-    </div>
-</div>
-<footer>
-    <div id="footer">
-        <div class="kr-tool text-center">
-            <div class="tool">
-                
-                    <div class="box search-box">
-                        <a href="/search/">
-                            <span class="fa fa-search"></span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="box theme-box" id="darkmode-switch">
-                        <span class="fa fa-adjust"></span>
-                    </div>
-                
-                
-            </div>
-            <div class="box gotop-box">
-                <span class="fa fa-chevron-up"></span>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 footer-list text-center">
-                    <ul class="kratos-social-icons">
-                        
-                        <li><a href="mailto:lijiajunljj@outlook.com"><i class="fa fa-envelope"></i></a></li>
-                        <li><a target="_blank" rel="nofollow" href="https://t.me/lijiakaijun"><i class="fa fa-telegram"></i></a></li>
-                        <li><a target="_blank" rel="nofollow" href="https://twitter.com/lijiakaijun"><i class="fa fa-twitter"></i></a></li>
-                        
-                        
-                        
-                        <li><a target="_blank" rel="nofollow" href="https://github.com/lijiajunljj"><i class="fa fa-github"></i></a></li>
-                        <li><a target="_blank" rel="nofollow" href="//atom.xml"><i class="fa fa-rss"></i></a></li>
-                    </ul>
-                    <ul class="kratos-copyright">
-                        <div>
-                            <li>&copy; 2020 lijiakaijun 版权所有.</li>
-                            <li>本站已运行<span id="span_dt">Loading...</span></li>
-                        </div>
-                        <div>
-                            <li>Theme <a href="https://github.com/Candinya/Kratos-Rebirth" target="_blank">Kratos:Rebirth</a></li>
-                            <li>Made with&nbsp;<i class="fa fa-heart throb" style="color:#d43f57"></i>&nbsp;by <a href="https://candinya.com" target="_blank" rel="nofollow">Candinya</a>.</li>
-                        </div>
-                        <div>
-                            <li>Powered by <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a></li>
-                            <li>Hosted on <a href="https://github.io" target="_blank">Github Pages</a> or <a href="https://vercel.app" target="_blank">Vercel</a></li>
-                        </div>
-                        <div>
-                            
-                            
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-</div>
-</div>
-
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
-<script>const notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));</script>
-
-<script async src="https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/js/candy.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-    <div id="aplayer"></div>
-<script>
-$.ajax({
-    type:"get",
-    url:"https://api.i-meto.com/meting/api?server=tencent&type=playlist&id=7472299373&r=0.04217614393310298",
-    dataType:"json",
-    success: function(data){
-        new APlayer({
-            container: document.getElementById('aplayer'),
-            fixed: true,
-            order: 'random',
-            lrcType: 3,
-            audio: data
-        });
-    }
-});
-</script>
-
-
-    <script defer src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-<script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/js/kratosr.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/js/pjax.min.js"></script>
-
-    <script defer src="https://cdn.jsdelivr.net/npm/layui-src@2.5.5/dist/layui.all.js"></script>
-
-
-    <script defer src="https://cdn.jsdelivr.net/gh/lijiajunljj/lijiajunljj.github.io/js/kr-dark.min.js"></script>
-
-
-
-    </body>
 </html>

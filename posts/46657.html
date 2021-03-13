@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>用js来实现网站定时变黑白</title>
+  <meta name="description" content="今天突然想起之前看过一篇用js来实现网站定时变黑白的 但是我找不到地址了 那好，我自己写个呗（  参考网站谁知道我参考了多少内容 https:&#x2F;&#x2F;www.cnblogs.com&#x2F;randomlee&#x2F;p&#x2F;9720936.html https:&#x2F;&#x2F;zhidao.baidu.com&#x2F;question&#x2F;363980343569682412.html https:&#x2F;&#x2F;www.yunecs.cn&#x2F;articl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用js来实现网站定时变黑白">
+<meta property="og:url" content="https://blog.lijiakaijun.cyou/posts/46657.html">
+<meta property="og:site_name" content="lijiakaijun">
+<meta property="og:description" content="今天突然想起之前看过一篇用js来实现网站定时变黑白的 但是我找不到地址了 那好，我自己写个呗（  参考网站谁知道我参考了多少内容 https:&#x2F;&#x2F;www.cnblogs.com&#x2F;randomlee&#x2F;p&#x2F;9720936.html https:&#x2F;&#x2F;zhidao.baidu.com&#x2F;question&#x2F;363980343569682412.html https:&#x2F;&#x2F;www.yunecs.cn&#x2F;articl">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://lijiakaijun.me/favicon.png">
+<meta property="article:published_time" content="2021-01-24T07:16:31.000Z">
+<meta property="article:modified_time" content="2021-03-08T15:17:52.400Z">
+<meta property="article:author" content="lijiakaijun">
+<meta property="article:tag" content="网站">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lijiakaijun.me/favicon.png">
+   
+      <meta name="google-site-verification" content="jOi4iM44VrK4ENrdczDx_VtNqHH22-OANeJ79eH_nC8">
+    
+    
+      <meta name="baidu-site-verification" content="code-mvq5mLso9B">
+    
+    
+      <meta name="msvalidate.01" content="37B06BA3B108C8529420F89DC3BD917C">
+    
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147974252-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-147974252-3');
+  </script>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css/github-markdown.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="lijiakaijun" type="application/atom+xml">
+</head>
+
+<body>
+  <div class="page">
+  <div class="title">用js来实现网站定时变黑白</div>
+  <div class="content markdown-body"><p>今天突然想起之前看过一篇用js来实现网站定时变黑白的</p>
+<p>但是我找不到地址了</p>
+<p>那好，我自己写个呗（</p>
+<hr>
+<h2 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h2><p>谁知道我参考了多少内容</p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/randomlee/p/9720936.html">https://www.cnblogs.com/randomlee/p/9720936.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://zhidao.baidu.com/question/363980343569682412.html">https://zhidao.baidu.com/question/363980343569682412.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.yunecs.cn/article/1041.html">https://www.yunecs.cn/article/1041.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jb51.net/article/51551.htm">https://www.jb51.net/article/51551.htm</a></p>
+<p>还有些我找不到了（</p>
+<hr>
+<h2 id="运行思路"><a href="#运行思路" class="headerlink" title="运行思路"></a>运行思路</h2><p><del>原本是不想写这个的，但想了下还是写出来</del></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">    start[开始] --&gt; time[获取时间]</span><br><span class="line">    time --&gt; pA&#123;判断时间&#125;</span><br><span class="line">    pA -- 是预定时间 --&gt; pC&#123;执行代码&#125;</span><br><span class="line">    pA -- 不是预定时间 --&gt; pB&#123;不执行&#125;</span><br><span class="line">    pB --&gt; stop[结束]</span><br><span class="line">    pC --&gt; stop</span><br></pre></td></tr></table></figure>
+
+<p>ok，那就开始吧</p>
+<p><del>代码写得真渣，请不要打我</del></p>
+<hr>
+<h2 id="获取时间"><a href="#获取时间" class="headerlink" title="获取时间"></a>获取时间</h2><p>获取时间这个我真的…</p>
+<p>首先，来获取个时间（应该是这么解释吧），此处不一定要是obj，其他的也行，只要把下面的一起改了就是</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> obj=<span class="keyword">new</span> <span class="built_in">Date</span>();</span><br></pre></td></tr></table></figure>
+
+<p>然后呢……获取月份和天啊</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> month=obj.getMonth();</span><br><span class="line"><span class="keyword">var</span> day=obj.getDate();</span><br></pre></td></tr></table></figure>
+
+<p>是的没错就这么简单（</p>
+<p>当然为了方便调试我就顺便加上一行<code>console.log(year,month,day);</code></p>
+<hr>
+<h2 id="判断时间并执行"><a href="#判断时间并执行" class="headerlink" title="判断时间并执行"></a>判断时间并执行</h2><p>嘛接下来就是判断时间了</p>
+<p>这里用到的是if语句</p>
+<p>一般网站变黑是4月4来着对吧，那if那应该是这么写</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (month == <span class="number">3</span> &amp;&amp; day == <span class="number">4</span> )</span><br></pre></td></tr></table></figure>
+
+<p>啊注意下，因为获取的月份是0~11的，所以要自行-1</p>
+<p>下面就是执行了，我这用document.write()</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.write(<span class="string">&#x27;&lt;style&gt;html&#123;-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);_filter:none&#125;&lt;/style&gt;&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>当然在这下面你也可以继续写的</p>
+<p>为了保险起见，我这顺便写了else的（</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">&#x27;一切早就确定下来了，无法修改&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>对的就这么简单</p>
+<hr>
+<h2 id="多点判断"><a href="#多点判断" class="headerlink" title="多点判断"></a>多点判断</h2><p>你会想“欸我不止要这个时间来让我的网站变黑白，还有其他办法吗”</p>
+<p>有，直接在if那加<code>||</code>然后写条件就行了</p>
+<p>例如我的是这样的</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (month == <span class="number">3</span> &amp;&amp; day == <span class="number">4</span> || month == <span class="number">11</span> &amp;&amp; day == <span class="number">13</span>)</span><br></pre></td></tr></table></figure>
+
+<p><del>不要问我为什么不在if里再套if，因为我试过不知道为什么会出错</del></p>
+<hr>
+<h2 id="最终代码"><a href="#最终代码" class="headerlink" title="最终代码"></a>最终代码</h2><p>我贴下我自己的供大家一起参考</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> obj=<span class="keyword">new</span> <span class="built_in">Date</span>();</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> year=obj.getFullYear();</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> month=obj.getMonth();</span></span><br><span class="line"><span class="javascript">  <span class="keyword">var</span> day=obj.getDate();</span></span><br><span class="line"><span class="javascript">  <span class="built_in">console</span>.log(year,month,day);</span></span><br><span class="line">  if (month == 3 &amp;&amp; day == 4 || month == 11 &amp;&amp; day == 13) &#123;</span><br><span class="line"><span class="handlebars"><span class="xml">    document.write(&#x27;<span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"><span class="selector-tag">html</span>&#123;<span class="attribute">-webkit-filter</span>:<span class="built_in">grayscale</span>(<span class="number">100%</span>);<span class="attribute">-moz-filter</span>:<span class="built_in">grayscale</span>(<span class="number">100%</span>);<span class="attribute">-ms-filter</span>:<span class="built_in">grayscale</span>(<span class="number">100%</span>);<span class="attribute">-o-filter</span>:<span class="built_in">grayscale</span>(<span class="number">100%</span>);<span class="attribute">filter</span>:progid:DXImageTransform.Microsoft.<span class="built_in">BasicImage</span>(grayscale=<span class="number">1</span>);<span class="attribute">_filter</span>:none&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span>&#x27;)</span></span></span><br><span class="line"><span class="javascript">    <span class="built_in">console</span>.log(<span class="string">&#x27;默哀...&#x27;</span>)</span></span><br><span class="line"><span class="javascript">   &#125; <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="javascript">     <span class="built_in">console</span>.log(<span class="string">&#x27;一切早就确定下来了，无法修改&#x27;</span>)</span></span><br><span class="line">   &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果是用Hexo的话直接在主题文件里找到head.ejs打开编辑就是了</p>
+<hr>
+<h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><p>我也不知道是不是藏得太深还是什么</p>
+<p>我没找到这种的教程</p>
+<p>那我去bilibili和知乎那找一找？</p>
+<p>如果没找到的话那…(坏笑)</p>
+<p><del>嘛写这东西来实现这功能其实是我懒得自己到时再编辑了w</del></p>
+<p><del>又水了一篇文章了草</del></p>
+</div>
+</div>
+
+  <div class="markdown-body">
+    
+    主题刚换还没来得及完善，评论什么的后面再说<br><span id="busuanzi_container_site_pv">&nbsp;&nbsp;|&nbsp;&nbsp;<li>本站总访问量<span id="busuanzi_value_site_pv"></span>次</li></span><span id="busuanzi_container_site_uv">&nbsp;&nbsp;|&nbsp;&nbsp;<li>本站访客数<span id="busuanzi_value_site_uv"></span>人次</li></span><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <br>
+    
+    <small>© 2020 <a href="/">lijiakaijun</a> - Powered By <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> And <a target="_blank" rel="noopener" href="https://github.com/Anillc/merry">Merry</a></small>
+  </div>
+</body>
+
+</html>
