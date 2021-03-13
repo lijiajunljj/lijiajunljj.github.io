@@ -15,7 +15,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://lijiakaijun.me/favicon.png">
 <meta property="article:published_time" content="2020-10-02T03:09:36.000Z">
-<meta property="article:modified_time" content="2021-03-08T15:17:52.400Z">
+<meta property="article:modified_time" content="2021-02-02T14:35:17.482Z">
 <meta property="article:author" content="lijiakaijun">
 <meta property="article:tag" content="网站">
 <meta property="article:tag" content="Hexo">
@@ -71,7 +71,7 @@ var _hmt = _hmt || [];
                         <i class="fa fa-edit">
                         
                         
-                            ~1.85K
+                            ~1.86K
                         
                         字</i> 
 <a href="javascript:history.go(-1);"><i class="fa fa-angle-left" aria-hidden="true"> 返回</i></a></div>
@@ -90,7 +90,7 @@ var _hmt = _hmt || [];
 <!--more-->
 
 <hr>
-<h2 id="加载Artalk"><a href="#加载Artalk" class="headerlink" title="加载Artalk"></a>加载Artalk</h2><p>首先我们在主题文件里的layout文件夹里的_comments文件夹里任选一个ejs来替换成下面的内容</p>
+<h2><span id="jia-zai-artalk">加载Artalk</span><a href="#jia-zai-artalk" class="header-anchor">#</a></h2><p>首先我们在主题文件里的layout文件夹里的_comments文件夹里任选一个ejs来替换成下面的内容</p>
 <p>我这替换disqusjs的ejs文件，应该是这样的：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id&#x3D;&quot;disqus_thread&quot;&gt;</span><br><span class="line">&lt;div id&#x3D;&quot;ArtalkComments&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line"> &lt;script src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;qwqcode&#x2F;Artalk&#x2F;dist&#x2F;Artalk.min.js&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  new Artalk(&#123;</span><br><span class="line">    el: &#39;#ArtalkComments&#39;, &#x2F;&#x2F; 元素选择</span><br><span class="line">    placeholder: &#39;提交完后记得刷新~&#39;, &#x2F;&#x2F; 占位符</span><br><span class="line">    noComment: &#39;快来成为第一个评论的人吧~&#39;, &#x2F;&#x2F; 无评论时显示</span><br><span class="line">    defaultAvatar: &#39;mp&#39;, &#x2F;&#x2F; 参考 https:&#x2F;&#x2F;cn.gravatar.com&#x2F;site&#x2F;implement&#x2F;images&#x2F;#default-image</span><br><span class="line">    pageKey: &#39;https:&#x2F;&#x2F;lijiakaijun.me&lt;%- page.lk %&gt;&#39;,&#x2F;&#x2F;我这里用绝对路径是避免出现一些奇怪的Bug</span><br><span class="line">    serverUrl: &#39;&#39;, &#x2F;&#x2F;服务器地址</span><br><span class="line">    readMore: &#123; &#x2F;&#x2F; 阅读更多配置</span><br><span class="line">      pageSize: 15, &#x2F;&#x2F; 每次请求获取评论数</span><br><span class="line">      autoLoad: true &#x2F;&#x2F; 滚动到底部自动加载</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">  &lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
 
@@ -99,16 +99,16 @@ var _hmt = _hmt || [];
 <p>仔细查看代码，你会发现pageKey这里配置的有点不同</p>
 <p>没错，这是重点所在</p>
 <hr>
-<h2 id="修改page-md"><a href="#修改page-md" class="headerlink" title="修改page.md"></a>修改page.md</h2><p>不修改的话如果page需要评论就会出现一些奇妙的Bug</p>
+<h2><span id="xiu-gai-page-md">修改page.md</span><a href="#xiu-gai-page-md" class="header-anchor">#</a></h2><p>不修改的话如果page需要评论就会出现一些奇妙的Bug</p>
 <p>直接在<code>date: &#123;&#123; date &#125;&#125;</code>后换一行添加<code>lk: /&#123;&#123; title &#125;&#125;</code>就行了</p>
 <hr>
-<h2 id="设置pageKey"><a href="#设置pageKey" class="headerlink" title="设置pageKey"></a>设置pageKey</h2><p>既然我们都安装了hexo-abbrlink了，也不怕去魔改这个插件嘛……</p>
+<h2><span id="she-zhi-pagekey">设置pageKey</span><a href="#she-zhi-pagekey" class="header-anchor">#</a></h2><p>既然我们都安装了hexo-abbrlink了，也不怕去魔改这个插件嘛……</p>
 <p>安装并配置hexo-abbrlink后打开node_modules文件夹里的hexo-abbrlink文件夹里的lib文件夹里的logic.js，并修改第97行为以下内容</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">postStr = <span class="string">&#x27;---\n&#x27;</span> + <span class="string">&#x27;lk: /posts/&#x27;</span> + abbrlink + <span class="string">&#x27;.html&#x27;</span> + <span class="string">&#x27;\n&#x27;</span> + postStr;</span><br></pre></td></tr></table></figure>
 
 <p>这样就行了，hexo g试试吧</p>
 <hr>
-<h2 id="小小的Bug"><a href="#小小的Bug" class="headerlink" title="小小的Bug"></a>小小的Bug</h2><p>hexo g后发现lk这个内容跑到最上面了</p>
+<h2><span id="xiao-xiao-de-bug">小小的Bug</span><a href="#xiao-xiao-de-bug" class="header-anchor">#</a></h2><p>hexo g后发现lk这个内容跑到最上面了</p>
 <p>而且这个办法可能还不是最好的办法……但对目前来说没有什么Bug了</p>
 <hr>
 <p>你也可能会问了，为什么我不用disqus？</p>

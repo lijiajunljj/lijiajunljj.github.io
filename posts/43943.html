@@ -15,7 +15,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://lijiakaijun.me/favicon.png">
 <meta property="article:published_time" content="2020-08-28T11:18:31.000Z">
-<meta property="article:modified_time" content="2021-03-08T15:17:52.410Z">
+<meta property="article:modified_time" content="2021-02-02T14:34:58.627Z">
 <meta property="article:author" content="lijiakaijun">
 <meta property="article:tag" content="网站">
 <meta property="article:tag" content="Github">
@@ -72,7 +72,7 @@ var _hmt = _hmt || [];
                         <i class="fa fa-edit">
                         
                         
-                            ~1.95K
+                            ~1.96K
                         
                         字</i> 
 <a href="javascript:history.go(-1);"><i class="fa fa-angle-left" aria-hidden="true"> 返回</i></a></div>
@@ -83,12 +83,12 @@ var _hmt = _hmt || [];
 <hr>
 <p>这里应该是详细的解释这个过程是怎么实现的</p>
 <p>毕竟看到gihtub actions我就想到说可以来个自动化啊，这样就不用本地了啊，而且还起到了直接备份博客的作用（只要自己的Github密码不会忘记）</p>
-<h2 id="如何实现在Github上在线编辑"><a href="#如何实现在Github上在线编辑" class="headerlink" title="如何实现在Github上在线编辑"></a>如何实现在Github上在线编辑</h2><p>我因为已经有了github pages仓库，不想全部重来，于是就参考了<a target="_blank" rel="noopener" href="https://blog.ichr.me/post/automated-deployment-of-serverless-static-blog/#%E6%9C%9F%E6%9C%9B">初探无后端静态博客自动化部署方案</a>这篇文章来</p>
-<h3 id="1-新建、同步一个仓库"><a href="#1-新建、同步一个仓库" class="headerlink" title="1.新建、同步一个仓库"></a>1.新建、同步一个仓库</h3><p>在github上新建一个仓库（这里就不放图了）</p>
+<h2><span id="ru-he-shi-xian-zai-github-shang-zai-xian-bian-ji">如何实现在Github上在线编辑</span><a href="#ru-he-shi-xian-zai-github-shang-zai-xian-bian-ji" class="header-anchor">#</a></h2><p>我因为已经有了github pages仓库，不想全部重来，于是就参考了<a target="_blank" rel="noopener" href="https://blog.ichr.me/post/automated-deployment-of-serverless-static-blog/#%E6%9C%9F%E6%9C%9B">初探无后端静态博客自动化部署方案</a>这篇文章来</p>
+<h3><span id="1-xin-jian-tong-bu-yi-ge-cang-ku">1.新建、同步一个仓库</span><a href="#1-xin-jian-tong-bu-yi-ge-cang-ku" class="header-anchor">#</a></h3><p>在github上新建一个仓库（这里就不放图了）</p>
 <p>记得要的是空白仓库</p>
 <p>然后我们在博客目录打开git来同步仓库</p>
 <p>（这里还是不放图了www）</p>
-<h3 id="2-生成一个SSH密钥"><a href="#2-生成一个SSH密钥" class="headerlink" title="2.生成一个SSH密钥"></a>2.生成一个SSH密钥</h3><p><strong>如果之前已经生成过的请直接忽略这一步骤！！！</strong></p>
+<h3><span id="2-sheng-cheng-yi-ge-ssh-mi-yao">2.生成一个SSH密钥</span><a href="#2-sheng-cheng-yi-ge-ssh-mi-yao" class="header-anchor">#</a></h3><p><strong>如果之前已经生成过的请直接忽略这一步骤！！！</strong></p>
 <p>在Git里输入<code>ssh-keygen -t rsa -C &#39;你的电子邮箱&#39;</code></p>
 <p>然后回车生成</p>
 <p>就会在<code>C:\Users\用户名\.ssh</code>文件夹里生成2个文件，一般是这样的</p>
@@ -101,7 +101,7 @@ var _hmt = _hmt || [];
 <p>然后就成功了</p>
 <p>例如我的就是这样</p>
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/2020/08/29/a3e2136d865a0a8d384c25098a660bcf.webp" alt="因为我这刚刚推送过一次所以就有了"></p>
-<h3 id="3-配置gihtub-actions"><a href="#3-配置gihtub-actions" class="headerlink" title="3.配置gihtub actions"></a>3.配置gihtub actions</h3><p>首先，请到<code>C:\Users\用户名\.ssh</code>文件夹里，找到名字为id_rsa的文件</p>
+<h3><span id="3-pei-zhi-gihtub-actions">3.配置gihtub actions</span><a href="#3-pei-zhi-gihtub-actions" class="header-anchor">#</a></h3><p>首先，请到<code>C:\Users\用户名\.ssh</code>文件夹里，找到名字为id_rsa的文件</p>
 <p><strong>（注意是没有后缀的，没有后缀的，没有后缀的！）</strong></p>
 <p>然后打开复制里面的内容</p>
 <p>回到我们新建的仓库，点击“Settings”，然后……看图点吧</p>
@@ -118,7 +118,7 @@ var _hmt = _hmt || [];
 <p>然后点“Start commit”→“Commit new file”</p>
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/2020/08/29/5ce1961c05a18e7020e3d01da925e0ff.webp"></p>
 <p>然后就行了</p>
-<h3 id="如何在线编辑呢？"><a href="#如何在线编辑呢？" class="headerlink" title="如何在线编辑呢？"></a>如何在线编辑呢？</h3><p>打开你新建的那个仓库，然后依次点击source_和posts文件夹</p>
+<h3><span id="ru-he-zai-xian-bian-ji-ni">如何在线编辑呢？</span><a href="#ru-he-zai-xian-bian-ji-ni" class="header-anchor">#</a></h3><p>打开你新建的那个仓库，然后依次点击source_和posts文件夹</p>
 <p>然后点击右边的Add file按钮，点击Create new file</p>
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/2020/08/29/0329e7a13bf9d6b401388bb75f3b1a7b.webp"></p>
 <p>然后你就看到了这个界面</p>

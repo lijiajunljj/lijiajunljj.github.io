@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Github Pages使用Cloudflare SSL后的重定向过多问题</title>
-  <meta name="description" content="昨天无聊上一下我的博客，然后发现……不能访问了，如下图所示  然后昨天去百度了一下原因，说是SSL的配置问题才导致重定向过多的问题 （别问我昨天的事为啥要拖到今天来做，因为昨天发现问题的时候我都快要去睡觉了QwQ） 解决方法进入Cloudflare管理界面，点击SSL 然后我们可以看到我们是用Flexible模式，我们点击Full即可 问题原因当Cloudflare使用Flexible模式时Clo">
+  <meta name="description" content="昨天无聊上一下我的博客，然后发现……不能访问了，如下图所示  然后昨天去百度了一下原因，说是SSL的配置问题才导致重定向过多的问题 （别问我昨天的事为啥要拖到今天来做，因为昨天发现问题的时候我都快要去睡觉了QwQ） 解决方法#进入Cloudflare管理界面，点击SSL 然后我们可以看到我们是用Flexible模式，我们点击Full即可 问题原因#当Cloudflare使用Flexible模式时C">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Github Pages使用Cloudflare SSL后的重定向过多问题">
 <meta property="og:url" content="https://blog.lijiakaijun.cyou/posts/4176.html">
 <meta property="og:site_name" content="lijiakaijun">
-<meta property="og:description" content="昨天无聊上一下我的博客，然后发现……不能访问了，如下图所示  然后昨天去百度了一下原因，说是SSL的配置问题才导致重定向过多的问题 （别问我昨天的事为啥要拖到今天来做，因为昨天发现问题的时候我都快要去睡觉了QwQ） 解决方法进入Cloudflare管理界面，点击SSL 然后我们可以看到我们是用Flexible模式，我们点击Full即可 问题原因当Cloudflare使用Flexible模式时Clo">
+<meta property="og:description" content="昨天无聊上一下我的博客，然后发现……不能访问了，如下图所示  然后昨天去百度了一下原因，说是SSL的配置问题才导致重定向过多的问题 （别问我昨天的事为啥要拖到今天来做，因为昨天发现问题的时候我都快要去睡觉了QwQ） 解决方法#进入Cloudflare管理界面，点击SSL 然后我们可以看到我们是用Flexible模式，我们点击Full即可 问题原因#当Cloudflare使用Flexible模式时C">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://lijiakaijun.me/favicon.png">
 <meta property="article:published_time" content="2020-03-18T01:42:29.000Z">
@@ -72,7 +72,7 @@ var _hmt = _hmt || [];
                         <i class="fa fa-edit">
                         
                         
-                            797
+                            800
                         
                         字</i> 
 <a href="javascript:history.go(-1);"><i class="fa fa-angle-left" aria-hidden="true"> 返回</i></a></div>
@@ -81,9 +81,9 @@ var _hmt = _hmt || [];
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/8djL7V.webp" alt="8djL7V.png"></p>
 <p>然后昨天去百度了一下原因，说是SSL的配置问题才导致重定向过多的问题</p>
 <p>（别问我昨天的事为啥要拖到今天来做，因为昨天发现问题的时候我都快要去睡觉了QwQ）</p>
-<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>进入Cloudflare管理界面，点击SSL</p>
+<h2><span id="jie-jue-fang-fa">解决方法</span><a href="#jie-jue-fang-fa" class="header-anchor">#</a></h2><p>进入Cloudflare管理界面，点击SSL</p>
 <p>然后我们可以看到我们是用Flexible模式，我们点击Full即可</p>
-<h2 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h2><p>当Cloudflare使用Flexible模式时Cloudflare使用http来连接Github Pages时那边又启用了强制https连接，把连接转为https，然后Cloudflare又使用http来连接，如此循环……</p>
+<h2><span id="wen-ti-yuan-yin">问题原因</span><a href="#wen-ti-yuan-yin" class="header-anchor">#</a></h2><p>当Cloudflare使用Flexible模式时Cloudflare使用http来连接Github Pages时那边又启用了强制https连接，把连接转为https，然后Cloudflare又使用http来连接，如此循环……</p>
 <p>附上每个模式的示例图（自行忽视截图上面那行字，懒得改了）</p>
 <p>不用https（Off）：</p>
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/8dxLJU.webp" alt="8dxLJU.png"></p>
@@ -93,7 +93,7 @@ var _hmt = _hmt || [];
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/8dxXz4.webp" alt="8dxXz4.png"></p>
 <p>使用Full（strict）模式：</p>
 <p><img src="https://gitee.com/lijiajunljj/wdbktc/raw/master/8dxqiT.webp" alt="8dxqiT.png"></p>
-<h2 id="另外一种解决方法（未实践-未成功）"><a href="#另外一种解决方法（未实践-未成功）" class="headerlink" title="另外一种解决方法（未实践/未成功）"></a>另外一种解决方法（未实践/未成功）</h2><p>我在想，如果我是用Flexible模式的话，Cloudflare会用http连接来访问我的Github Pages，那么如果我在Github那边取消“强制使用hhtps”的话会不会达到同样效果？</p>
+<h2><span id="ling-wai-yi-chong-jie-jue-fang-fa-wei-shi-jian-wei-cheng-gong">另外一种解决方法（未实践/未成功）</span><a href="#ling-wai-yi-chong-jie-jue-fang-fa-wei-shi-jian-wei-cheng-gong" class="header-anchor">#</a></h2><p>我在想，如果我是用Flexible模式的话，Cloudflare会用http连接来访问我的Github Pages，那么如果我在Github那边取消“强制使用hhtps”的话会不会达到同样效果？</p>
 <p>试下呗</p>
 <p>进入Github，然后进入我的Github Pages仓库</p>
 <p>然后点击Settings，进入设置</p>
