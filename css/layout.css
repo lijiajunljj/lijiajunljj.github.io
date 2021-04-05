@@ -78,6 +78,8 @@ html, body {
 
 .posts .post .title {
   font-size: 1.5em;
+  text-align: center;
+  word-break: break-all;
 }
 
 .posts .post .excerpt {
