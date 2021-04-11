@@ -31,4 +31,4 @@
 一个奇怪的网站：https://lijia.ml
 
 > 你可以匿名听！jiakaijun Li开始了问题框 | Peing -提问箱-
-> https://peing.net/zh-CN/335000002326d8
+> https://peing.net/zh-CN/lijia
