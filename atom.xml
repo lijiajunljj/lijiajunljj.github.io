@@ -1413,11 +1413,11 @@
     <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
-    
     <category term="内网映射" scheme="https://blog.lijiakaijun.cyou/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/"/>
     
     <category term="远程桌面" scheme="https://blog.lijiakaijun.cyou/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
+    
+    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
     
   </entry>
   
