@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.lijiakaijun.cyou/posts/47935.html</loc>
+    
+    <lastmod>2021-05-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.lijiakaijun.cyou/posts/34117.html</loc>
     
     <lastmod>2021-05-15</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>https://blog.lijiakaijun.cyou/posts/3189.html</loc>
-    
-    <lastmod>2021-05-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.lijiakaijun.cyou/posts/47935.html</loc>
     
     <lastmod>2021-05-15</lastmod>
     
@@ -557,6 +557,13 @@
   </url>
   
   <url>
+    <loc>https://blog.lijiakaijun.cyou/tags/bilibili/</loc>
+    <lastmod>2021-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.lijiakaijun.cyou/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
@@ -565,13 +572,6 @@
   
   <url>
     <loc>https://blog.lijiakaijun.cyou/tags/Minecraft/</loc>
-    <lastmod>2021-05-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.lijiakaijun.cyou/tags/bilibili/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
