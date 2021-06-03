@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>lijiakaijun</title>
-  <icon>https://blog.lijiakaijun.cyou/favicon.ico</icon>
+  <icon>https://lijiakaijun.me/favicon.ico</icon>
   <subtitle>lijiakaijun</subtitle>
-  <link href="https://blog.lijiakaijun.cyou/atom.xml" rel="self"/>
+  <link href="https://lijiakaijun.me/atom.xml" rel="self"/>
   
-  <link href="https://blog.lijiakaijun.cyou/"/>
-  <updated>2021-06-03T12:33:59.762Z</updated>
-  <id>https://blog.lijiakaijun.cyou/</id>
+  <link href="https://lijiakaijun.me/"/>
+  <updated>2021-06-03T12:34:20.230Z</updated>
+  <id>https://lijiakaijun.me/</id>
   
   <author>
     <name>lijiakaijun</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>关于切换域名的通知</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/42095.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/42095.html</id>
+    <link href="https://lijiakaijun.me/posts/42095.html"/>
+    <id>https://lijiakaijun.me/posts/42095.html</id>
     <published>2021-06-03T12:28:38.000Z</published>
-    <updated>2021-06-03T12:33:59.762Z</updated>
+    <updated>2021-06-03T12:34:20.230Z</updated>
     
     <content type="html"><![CDATA[<p>各位好，我是lijiakaijun</p><p>因为部分原因，目前已切换新域名<code>blog.lijiakaijun.cyou</code></p><p>旧域名<code>lijiakaijun.me</code>将不再续期，旧域名在6月10日过期</p><p>因为部分原因未为网站全部做301跳转</p><p>所以请尽快更新自己的RSS订阅地址，以免造成“失联”</p><p><del>如果<a href="https://feeds.pub/timqian">timqian</a>能看到的话麻烦把订阅删了2333</del></p><hr><p>因为<code>lijiakaijun.me</code>这个域名是@EdenJohnson送的，但设置成他所使用的dns服务商了</p><p>于是就拜托他帮忙做301</p><p>结果他就直接…好吧，趁着域名没到期也就发个文章吧23333</p><p><strong>这篇不会在新域名上出现</strong></p>]]></content>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>有点点特殊的6月开头</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/38011.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/38011.html</id>
+    <link href="https://lijiakaijun.me/posts/38011.html"/>
+    <id>https://lijiakaijun.me/posts/38011.html</id>
     <published>2021-06-03T09:21:16.000Z</published>
     <updated>2021-06-03T12:23:02.526Z</updated>
     
@@ -56,15 +56,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>5月...</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/3189.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/3189.html</id>
+    <link href="https://lijiakaijun.me/posts/3189.html"/>
+    <id>https://lijiakaijun.me/posts/3189.html</id>
     <published>2021-05-05T03:52:38.000Z</published>
     <updated>2021-05-15T11:56:47.358Z</updated>
     
@@ -84,15 +84,15 @@
     
     
     
-    <category term="闲聊" scheme="https://blog.lijiakaijun.cyou/categories/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://lijiakaijun.me/categories/%E9%97%B2%E8%81%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>《关于lijia的教室里的希沃一体机被lijia折腾成什么样子这件事》</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/22851.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/22851.html</id>
+    <link href="https://lijiakaijun.me/posts/22851.html"/>
+    <id>https://lijiakaijun.me/posts/22851.html</id>
     <published>2021-05-01T14:58:58.000Z</published>
     <updated>2021-05-15T11:57:10.624Z</updated>
     
@@ -112,19 +112,19 @@
     
     
     
-    <category term="闲聊" scheme="https://blog.lijiakaijun.cyou/categories/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://lijiakaijun.me/categories/%E9%97%B2%E8%81%8A/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
-    <category term="电脑" scheme="https://blog.lijiakaijun.cyou/tags/%E7%94%B5%E8%84%91/"/>
+    <category term="电脑" scheme="https://lijiakaijun.me/tags/%E7%94%B5%E8%84%91/"/>
     
   </entry>
   
   <entry>
     <title>【转载+附言】『给RSS爱好者们的一封信』为什么我们应该提高RSS刷新间隔</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/34117.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/34117.html</id>
+    <link href="https://lijiakaijun.me/posts/34117.html"/>
+    <id>https://lijiakaijun.me/posts/34117.html</id>
     <published>2021-03-19T14:55:17.000Z</published>
     <updated>2021-05-15T11:58:35.666Z</updated>
     
@@ -161,19 +161,19 @@
     
     
     
-    <category term="转载" scheme="https://blog.lijiakaijun.cyou/categories/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="转载" scheme="https://lijiakaijun.me/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="RSS" scheme="https://blog.lijiakaijun.cyou/tags/RSS/"/>
+    <category term="RSS" scheme="https://lijiakaijun.me/tags/RSS/"/>
     
   </entry>
   
   <entry>
     <title>不知道该写什么好...（转自QQ大号）</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/38698.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/38698.html</id>
+    <link href="https://lijiakaijun.me/posts/38698.html"/>
+    <id>https://lijiakaijun.me/posts/38698.html</id>
     <published>2021-03-13T04:42:18.000Z</published>
     <updated>2021-05-15T11:58:23.729Z</updated>
     
@@ -184,15 +184,15 @@
     
     
     
-    <category term="特殊" scheme="https://blog.lijiakaijun.cyou/categories/%E7%89%B9%E6%AE%8A/"/>
+    <category term="特殊" scheme="https://lijiakaijun.me/categories/%E7%89%B9%E6%AE%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>换主题啦</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/36987.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/36987.html</id>
+    <link href="https://lijiakaijun.me/posts/36987.html"/>
+    <id>https://lijiakaijun.me/posts/36987.html</id>
     <published>2021-03-08T16:29:51.000Z</published>
     <updated>2021-05-15T11:58:03.502Z</updated>
     
@@ -216,15 +216,15 @@
     
     
     
-    <category term="其他" scheme="https://blog.lijiakaijun.cyou/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://lijiakaijun.me/categories/%E5%85%B6%E4%BB%96/"/>
     
     
   </entry>
   
   <entry>
     <title>又一个应用程序在线部署网站？——Cloudflare Pages Beta快速体验</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/47935.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/47935.html</id>
+    <link href="https://lijiakaijun.me/posts/47935.html"/>
+    <id>https://lijiakaijun.me/posts/47935.html</id>
     <published>2021-03-06T10:59:29.000Z</published>
     <updated>2021-05-15T12:05:49.300Z</updated>
     
@@ -245,19 +245,19 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="Cloudflare" scheme="https://blog.lijiakaijun.cyou/tags/Cloudflare/"/>
+    <category term="Cloudflare" scheme="https://lijiakaijun.me/tags/Cloudflare/"/>
     
   </entry>
   
   <entry>
     <title>尝试回忆这么多年来我在网络上所活动过的有哪些地方</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/13152.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/13152.html</id>
+    <link href="https://lijiakaijun.me/posts/13152.html"/>
+    <id>https://lijiakaijun.me/posts/13152.html</id>
     <published>2021-03-06T04:47:12.000Z</published>
     <updated>2021-05-02T11:21:37.256Z</updated>
     
@@ -269,15 +269,15 @@
     
     
     
-    <category term="回顾" scheme="https://blog.lijiakaijun.cyou/categories/%E5%9B%9E%E9%A1%BE/"/>
+    <category term="回顾" scheme="https://lijiakaijun.me/categories/%E5%9B%9E%E9%A1%BE/"/>
     
     
   </entry>
   
   <entry>
     <title>又一个寒假</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/31335.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/31335.html</id>
+    <link href="https://lijiakaijun.me/posts/31335.html"/>
+    <id>https://lijiakaijun.me/posts/31335.html</id>
     <published>2021-02-20T19:58:14.000Z</published>
     <updated>2021-05-02T11:22:04.295Z</updated>
     
@@ -290,15 +290,15 @@
     
     
     
-    <category term="回顾" scheme="https://blog.lijiakaijun.cyou/categories/%E5%9B%9E%E9%A1%BE/"/>
+    <category term="回顾" scheme="https://lijiakaijun.me/categories/%E5%9B%9E%E9%A1%BE/"/>
     
     
   </entry>
   
   <entry>
     <title>【挖坑待填】折腾OPPO A37中记录的一些问题</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/48520.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/48520.html</id>
+    <link href="https://lijiakaijun.me/posts/48520.html"/>
+    <id>https://lijiakaijun.me/posts/48520.html</id>
     <published>2021-02-18T01:56:29.000Z</published>
     <updated>2021-05-02T11:22:16.179Z</updated>
     
@@ -324,8 +324,8 @@
   
   <entry>
     <title>没有主题的文章（2）</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/36104.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/36104.html</id>
+    <link href="https://lijiakaijun.me/posts/36104.html"/>
+    <id>https://lijiakaijun.me/posts/36104.html</id>
     <published>2021-02-12T14:07:46.000Z</published>
     <updated>2021-05-02T11:22:27.435Z</updated>
     
@@ -344,19 +344,19 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="bilibili" scheme="https://blog.lijiakaijun.cyou/tags/bilibili/"/>
+    <category term="bilibili" scheme="https://lijiakaijun.me/tags/bilibili/"/>
     
-    <category term="鹿乃" scheme="https://blog.lijiakaijun.cyou/tags/%E9%B9%BF%E4%B9%83/"/>
+    <category term="鹿乃" scheme="https://lijiakaijun.me/tags/%E9%B9%BF%E4%B9%83/"/>
     
   </entry>
   
   <entry>
     <title>《论lijia的低配版在线编辑》（大雾）</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/64451.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/64451.html</id>
+    <link href="https://lijiakaijun.me/posts/64451.html"/>
+    <id>https://lijiakaijun.me/posts/64451.html</id>
     <published>2021-02-06T04:10:38.000Z</published>
     <updated>2021-05-02T11:22:40.306Z</updated>
     
@@ -367,17 +367,17 @@
     
     
     
-    <category term="闲聊" scheme="https://blog.lijiakaijun.cyou/categories/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://lijiakaijun.me/categories/%E9%97%B2%E8%81%8A/"/>
     
     
-    <category term="Github - Hexo" scheme="https://blog.lijiakaijun.cyou/tags/Github-Hexo/"/>
+    <category term="Github - Hexo" scheme="https://lijiakaijun.me/tags/Github-Hexo/"/>
     
   </entry>
   
   <entry>
     <title>简单记录下怎么卸载Gapp</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/35161.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/35161.html</id>
+    <link href="https://lijiakaijun.me/posts/35161.html"/>
+    <id>https://lijiakaijun.me/posts/35161.html</id>
     <published>2021-02-02T13:38:24.000Z</published>
     <updated>2021-05-02T11:22:48.566Z</updated>
     
@@ -390,19 +390,19 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="手机" scheme="https://blog.lijiakaijun.cyou/tags/%E6%89%8B%E6%9C%BA/"/>
+    <category term="手机" scheme="https://lijiakaijun.me/tags/%E6%89%8B%E6%9C%BA/"/>
     
-    <category term="Google" scheme="https://blog.lijiakaijun.cyou/tags/Google/"/>
+    <category term="Google" scheme="https://lijiakaijun.me/tags/Google/"/>
     
   </entry>
   
   <entry>
     <title>花季女子寮......解散...</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/27133.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/27133.html</id>
+    <link href="https://lijiakaijun.me/posts/27133.html"/>
+    <id>https://lijiakaijun.me/posts/27133.html</id>
     <published>2021-02-01T06:59:56.000Z</published>
     <updated>2021-05-02T11:23:01.601Z</updated>
     
@@ -413,15 +413,15 @@
     
     
     
-    <category term="特殊" scheme="https://blog.lijiakaijun.cyou/categories/%E7%89%B9%E6%AE%8A/"/>
+    <category term="特殊" scheme="https://lijiakaijun.me/categories/%E7%89%B9%E6%AE%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>《论lijia有多少种奇奇怪怪的文字加密方法》</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/21034.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/21034.html</id>
+    <link href="https://lijiakaijun.me/posts/21034.html"/>
+    <id>https://lijiakaijun.me/posts/21034.html</id>
     <published>2021-01-31T09:30:21.000Z</published>
     <updated>2021-05-02T11:23:06.833Z</updated>
     
@@ -432,19 +432,19 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
-    <category term="加密" scheme="https://blog.lijiakaijun.cyou/tags/%E5%8A%A0%E5%AF%86/"/>
+    <category term="加密" scheme="https://lijiakaijun.me/tags/%E5%8A%A0%E5%AF%86/"/>
     
   </entry>
   
   <entry>
     <title>用js来实现网站定时变黑白</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/46657.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/46657.html</id>
+    <link href="https://lijiakaijun.me/posts/46657.html"/>
+    <id>https://lijiakaijun.me/posts/46657.html</id>
     <published>2021-01-24T07:16:31.000Z</published>
     <updated>2021-05-02T11:23:11.983Z</updated>
     
@@ -465,17 +465,17 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
   <entry>
     <title>嘛来扯扯我的一些东西...</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/1330.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/1330.html</id>
+    <link href="https://lijiakaijun.me/posts/1330.html"/>
+    <id>https://lijiakaijun.me/posts/1330.html</id>
     <published>2021-01-10T05:19:45.000Z</published>
     <updated>2021-05-02T11:23:19.096Z</updated>
     
@@ -486,17 +486,17 @@
     
     
     
-    <category term="回顾" scheme="https://blog.lijiakaijun.cyou/categories/%E5%9B%9E%E9%A1%BE/"/>
+    <category term="回顾" scheme="https://lijiakaijun.me/categories/%E5%9B%9E%E9%A1%BE/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>第一篇年终总结？（2020）</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/21228.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/21228.html</id>
+    <link href="https://lijiakaijun.me/posts/21228.html"/>
+    <id>https://lijiakaijun.me/posts/21228.html</id>
     <published>2020-12-31T14:14:27.000Z</published>
     <updated>2021-05-02T12:08:34.762Z</updated>
     
@@ -514,21 +514,21 @@
     
     
     
-    <category term="年终总结" scheme="https://blog.lijiakaijun.cyou/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <category term="年终总结" scheme="https://lijiakaijun.me/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
-    <category term="友谊" scheme="https://blog.lijiakaijun.cyou/tags/%E5%8F%8B%E8%B0%8A/"/>
+    <category term="友谊" scheme="https://lijiakaijun.me/tags/%E5%8F%8B%E8%B0%8A/"/>
     
-    <category term="手机" scheme="https://blog.lijiakaijun.cyou/tags/%E6%89%8B%E6%9C%BA/"/>
+    <category term="手机" scheme="https://lijiakaijun.me/tags/%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>尝试用UWP应用来代替日常所使用的软件</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/4843.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/4843.html</id>
+    <link href="https://lijiakaijun.me/posts/4843.html"/>
+    <id>https://lijiakaijun.me/posts/4843.html</id>
     <published>2020-12-05T06:32:27.000Z</published>
     <updated>2021-05-02T12:08:47.204Z</updated>
     
@@ -539,17 +539,17 @@
     
     
     
-    <category term="未施工完毕的文章" scheme="https://blog.lijiakaijun.cyou/categories/%E6%9C%AA%E6%96%BD%E5%B7%A5%E5%AE%8C%E6%AF%95%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+    <category term="未施工完毕的文章" scheme="https://lijiakaijun.me/categories/%E6%9C%AA%E6%96%BD%E5%B7%A5%E5%AE%8C%E6%AF%95%E7%9A%84%E6%96%87%E7%AB%A0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>一年多以来我拿着OPPO A37t干了什么？</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/62901.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/62901.html</id>
+    <link href="https://lijiakaijun.me/posts/62901.html"/>
+    <id>https://lijiakaijun.me/posts/62901.html</id>
     <published>2020-11-08T02:27:50.000Z</published>
     <updated>2021-05-02T12:09:40.171Z</updated>
     
@@ -569,17 +569,17 @@
     
     
     
-    <category term="回顾" scheme="https://blog.lijiakaijun.cyou/categories/%E5%9B%9E%E9%A1%BE/"/>
+    <category term="回顾" scheme="https://lijiakaijun.me/categories/%E5%9B%9E%E9%A1%BE/"/>
     
     
-    <category term="手机" scheme="https://blog.lijiakaijun.cyou/tags/%E6%89%8B%E6%9C%BA/"/>
+    <category term="手机" scheme="https://lijiakaijun.me/tags/%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>暂时解决使用Kratos-Rebirth主题后Artalk评论出现问题的一些办法</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/8807.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/8807.html</id>
+    <link href="https://lijiakaijun.me/posts/8807.html"/>
+    <id>https://lijiakaijun.me/posts/8807.html</id>
     <published>2020-10-02T03:09:36.000Z</published>
     <updated>2021-05-02T11:23:23.952Z</updated>
     
@@ -594,16 +594,16 @@
     
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="Hexo" scheme="https://blog.lijiakaijun.cyou/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://lijiakaijun.me/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>［置顶］记录初三的生活</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/58458.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/58458.html</id>
+    <link href="https://lijiakaijun.me/posts/58458.html"/>
+    <id>https://lijiakaijun.me/posts/58458.html</id>
     <published>2020-09-03T03:10:00.000Z</published>
     <updated>2021-05-30T01:11:36.162Z</updated>
     
@@ -616,17 +616,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>暑假最后一天了，然后......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/54144.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/54144.html</id>
+    <link href="https://lijiakaijun.me/posts/54144.html"/>
+    <id>https://lijiakaijun.me/posts/54144.html</id>
     <published>2020-08-31T01:33:55.000Z</published>
     <updated>2021-05-02T12:10:00.103Z</updated>
     
@@ -638,17 +638,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="Minecraft" scheme="https://blog.lijiakaijun.cyou/tags/Minecraft/"/>
+    <category term="Minecraft" scheme="https://lijiakaijun.me/tags/Minecraft/"/>
     
   </entry>
   
   <entry>
     <title>测试Hexo在Github上在线编辑并自动推送到Github Pages</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/43943.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/43943.html</id>
+    <link href="https://lijiakaijun.me/posts/43943.html"/>
+    <id>https://lijiakaijun.me/posts/43943.html</id>
     <published>2020-08-28T11:18:31.000Z</published>
     <updated>2021-05-02T12:14:16.588Z</updated>
     
@@ -659,21 +659,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="Github" scheme="https://blog.lijiakaijun.cyou/tags/Github/"/>
+    <category term="Github" scheme="https://lijiakaijun.me/tags/Github/"/>
     
-    <category term="Hexo" scheme="https://blog.lijiakaijun.cyou/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://lijiakaijun.me/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>闲聊下.....网抑云？</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/47876.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/47876.html</id>
+    <link href="https://lijiakaijun.me/posts/47876.html"/>
+    <id>https://lijiakaijun.me/posts/47876.html</id>
     <published>2020-08-11T14:21:37.000Z</published>
     <updated>2021-04-11T04:39:27.299Z</updated>
     
@@ -696,17 +696,17 @@
     
     
     
-    <category term="闲聊" scheme="https://blog.lijiakaijun.cyou/categories/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://lijiakaijun.me/categories/%E9%97%B2%E8%81%8A/"/>
     
     
-    <category term="音乐" scheme="https://blog.lijiakaijun.cyou/tags/%E9%9F%B3%E4%B9%90/"/>
+    <category term="音乐" scheme="https://lijiakaijun.me/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>手机刷机15天后......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/46985.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/46985.html</id>
+    <link href="https://lijiakaijun.me/posts/46985.html"/>
+    <id>https://lijiakaijun.me/posts/46985.html</id>
     <published>2020-08-05T13:03:12.000Z</published>
     <updated>2021-04-11T04:40:52.465Z</updated>
     
@@ -719,17 +719,17 @@
     
     
     
-    <category term="闲聊" scheme="https://blog.lijiakaijun.cyou/categories/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://lijiakaijun.me/categories/%E9%97%B2%E8%81%8A/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>没有主题的文章（1）（？）</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/9417.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/9417.html</id>
+    <link href="https://lijiakaijun.me/posts/9417.html"/>
+    <id>https://lijiakaijun.me/posts/9417.html</id>
     <published>2020-08-02T05:05:37.000Z</published>
     <updated>2021-04-11T04:41:35.237Z</updated>
     
@@ -741,17 +741,17 @@
     
     
     
-    <category term="回顾" scheme="https://blog.lijiakaijun.cyou/categories/%E5%9B%9E%E9%A1%BE/"/>
+    <category term="回顾" scheme="https://lijiakaijun.me/categories/%E5%9B%9E%E9%A1%BE/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>一封垃圾邮件，标题为“Re：and the elsewhere help the rsquo No night in of”</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/49229.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/49229.html</id>
+    <link href="https://lijiakaijun.me/posts/49229.html"/>
+    <id>https://lijiakaijun.me/posts/49229.html</id>
     <published>2020-07-25T04:44:38.000Z</published>
     <updated>2021-04-11T04:42:00.091Z</updated>
     
@@ -768,17 +768,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>来配置下Windows Terminal</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/49908.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/49908.html</id>
+    <link href="https://lijiakaijun.me/posts/49908.html"/>
+    <id>https://lijiakaijun.me/posts/49908.html</id>
     <published>2020-07-19T12:43:39.000Z</published>
     <updated>2021-03-12T12:36:23.920Z</updated>
     
@@ -796,17 +796,17 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>【更新至8月25日】初二放假后的第一篇（水）文章</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/15956.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/15956.html</id>
+    <link href="https://lijiakaijun.me/posts/15956.html"/>
+    <id>https://lijiakaijun.me/posts/15956.html</id>
     <published>2020-07-19T02:15:20.000Z</published>
     <updated>2021-04-11T04:43:57.750Z</updated>
     
@@ -818,17 +818,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>想不出标题，就先这么写了吧</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/34076.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/34076.html</id>
+    <link href="https://lijiakaijun.me/posts/34076.html"/>
+    <id>https://lijiakaijun.me/posts/34076.html</id>
     <published>2020-07-11T06:58:29.000Z</published>
     <updated>2021-04-11T04:44:38.298Z</updated>
     
@@ -841,19 +841,19 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="Minecraft" scheme="https://blog.lijiakaijun.cyou/tags/Minecraft/"/>
+    <category term="Minecraft" scheme="https://lijiakaijun.me/tags/Minecraft/"/>
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>玩玩RSSHub Radar，以及......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/11600.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/11600.html</id>
+    <link href="https://lijiakaijun.me/posts/11600.html"/>
+    <id>https://lijiakaijun.me/posts/11600.html</id>
     <published>2020-06-26T13:55:54.000Z</published>
     <updated>2021-03-12T12:36:23.701Z</updated>
     
@@ -872,21 +872,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="Github" scheme="https://blog.lijiakaijun.cyou/tags/Github/"/>
+    <category term="Github" scheme="https://lijiakaijun.me/tags/Github/"/>
     
-    <category term="RSS" scheme="https://blog.lijiakaijun.cyou/tags/RSS/"/>
+    <category term="RSS" scheme="https://lijiakaijun.me/tags/RSS/"/>
     
   </entry>
   
   <entry>
     <title>过了好久终于可以更新博客了~</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/3091.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/3091.html</id>
+    <link href="https://lijiakaijun.me/posts/3091.html"/>
+    <id>https://lijiakaijun.me/posts/3091.html</id>
     <published>2020-06-20T03:46:47.000Z</published>
     <updated>2021-04-11T04:50:30.026Z</updated>
     
@@ -904,19 +904,19 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>最近事......挺多的哈</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/3430.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/3430.html</id>
+    <link href="https://lijiakaijun.me/posts/3430.html"/>
+    <id>https://lijiakaijun.me/posts/3430.html</id>
     <published>2020-05-29T21:26:21.000Z</published>
     <updated>2021-04-11T04:52:18.869Z</updated>
     
@@ -934,19 +934,19 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="bilibili" scheme="https://blog.lijiakaijun.cyou/tags/bilibili/"/>
+    <category term="bilibili" scheme="https://lijiakaijun.me/tags/bilibili/"/>
     
-    <category term="友谊" scheme="https://blog.lijiakaijun.cyou/tags/%E5%8F%8B%E8%B0%8A/"/>
+    <category term="友谊" scheme="https://lijiakaijun.me/tags/%E5%8F%8B%E8%B0%8A/"/>
     
   </entry>
   
   <entry>
     <title>开学一周了......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/202.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/202.html</id>
+    <link href="https://lijiakaijun.me/posts/202.html"/>
+    <id>https://lijiakaijun.me/posts/202.html</id>
     <published>2020-05-17T02:43:15.000Z</published>
     <updated>2021-03-12T12:36:23.897Z</updated>
     
@@ -957,17 +957,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="bilibili" scheme="https://blog.lijiakaijun.cyou/tags/bilibili/"/>
+    <category term="bilibili" scheme="https://lijiakaijun.me/tags/bilibili/"/>
     
   </entry>
   
   <entry>
     <title>简单闲聊下盗视频这种事......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/11223.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/11223.html</id>
+    <link href="https://lijiakaijun.me/posts/11223.html"/>
+    <id>https://lijiakaijun.me/posts/11223.html</id>
     <published>2020-05-09T03:47:14.000Z</published>
     <updated>2021-03-12T12:36:23.895Z</updated>
     
@@ -985,15 +985,15 @@
     
     
     
-    <category term="闲聊" scheme="https://blog.lijiakaijun.cyou/categories/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="https://lijiakaijun.me/categories/%E9%97%B2%E8%81%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>最近要暂停（或者是随缘）更新了(´･_･`)</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/20200507.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/20200507.html</id>
+    <link href="https://lijiakaijun.me/posts/20200507.html"/>
+    <id>https://lijiakaijun.me/posts/20200507.html</id>
     <published>2020-05-06T14:50:01.000Z</published>
     <updated>2021-03-12T12:36:23.875Z</updated>
     
@@ -1007,17 +1007,17 @@
     
     
     
-    <category term="特殊" scheme="https://blog.lijiakaijun.cyou/categories/%E7%89%B9%E6%AE%8A/"/>
+    <category term="特殊" scheme="https://lijiakaijun.me/categories/%E7%89%B9%E6%AE%8A/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>咕咕咕</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/20200.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/20200.html</id>
+    <link href="https://lijiakaijun.me/posts/20200.html"/>
+    <id>https://lijiakaijun.me/posts/20200.html</id>
     <published>2020-05-03T13:37:48.000Z</published>
     <updated>2021-03-12T12:36:23.872Z</updated>
     
@@ -1028,19 +1028,19 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="电脑" scheme="https://blog.lijiakaijun.cyou/tags/%E7%94%B5%E8%84%91/"/>
+    <category term="电脑" scheme="https://lijiakaijun.me/tags/%E7%94%B5%E8%84%91/"/>
     
   </entry>
   
   <entry>
     <title>五一劳动节快乐~</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/18149.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/18149.html</id>
+    <link href="https://lijiakaijun.me/posts/18149.html"/>
+    <id>https://lijiakaijun.me/posts/18149.html</id>
     <published>2020-05-01T15:12:36.000Z</published>
     <updated>2021-03-12T12:36:23.866Z</updated>
     
@@ -1061,15 +1061,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>最近真的没啥事发生......吗</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/34456.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/34456.html</id>
+    <link href="https://lijiakaijun.me/posts/34456.html"/>
+    <id>https://lijiakaijun.me/posts/34456.html</id>
     <published>2020-04-25T04:25:46.000Z</published>
     <updated>2021-03-12T12:36:23.820Z</updated>
     
@@ -1089,17 +1089,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>在deepin中安装git、node.js和hexo</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/54000.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/54000.html</id>
+    <link href="https://lijiakaijun.me/posts/54000.html"/>
+    <id>https://lijiakaijun.me/posts/54000.html</id>
     <published>2020-04-23T09:30:24.000Z</published>
     <updated>2021-04-11T04:53:11.253Z</updated>
     
@@ -1116,21 +1116,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="deepin" scheme="https://blog.lijiakaijun.cyou/tags/deepin/"/>
+    <category term="deepin" scheme="https://lijiakaijun.me/tags/deepin/"/>
     
-    <category term="Hexo" scheme="https://blog.lijiakaijun.cyou/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://lijiakaijun.me/tags/Hexo/"/>
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>无聊来搞个精简Windows 10</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/5343.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/5343.html</id>
+    <link href="https://lijiakaijun.me/posts/5343.html"/>
+    <id>https://lijiakaijun.me/posts/5343.html</id>
     <published>2020-04-18T08:31:24.000Z</published>
     <updated>2021-04-11T04:53:46.013Z</updated>
     
@@ -1148,17 +1148,17 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>最近又出什么事了......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/49255.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/49255.html</id>
+    <link href="https://lijiakaijun.me/posts/49255.html"/>
+    <id>https://lijiakaijun.me/posts/49255.html</id>
     <published>2020-04-16T03:24:59.000Z</published>
     <updated>2021-03-12T12:36:23.809Z</updated>
     
@@ -1169,15 +1169,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>(大概的)开学时间确定了</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/27710.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/27710.html</id>
+    <link href="https://lijiakaijun.me/posts/27710.html"/>
+    <id>https://lijiakaijun.me/posts/27710.html</id>
     <published>2020-04-11T00:31:14.000Z</published>
     <updated>2021-03-12T12:36:23.805Z</updated>
     
@@ -1188,15 +1188,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>额......</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/46371.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/46371.html</id>
+    <link href="https://lijiakaijun.me/posts/46371.html"/>
+    <id>https://lijiakaijun.me/posts/46371.html</id>
     <published>2020-04-09T00:13:44.000Z</published>
     <updated>2021-04-11T04:54:30.210Z</updated>
     
@@ -1215,21 +1215,21 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="Github" scheme="https://blog.lijiakaijun.cyou/tags/Github/"/>
+    <category term="Github" scheme="https://lijiakaijun.me/tags/Github/"/>
     
-    <category term="jsDelivr" scheme="https://blog.lijiakaijun.cyou/tags/jsDelivr/"/>
+    <category term="jsDelivr" scheme="https://lijiakaijun.me/tags/jsDelivr/"/>
     
   </entry>
   
   <entry>
     <title>2020.04.04-2020.04.07</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/11706.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/11706.html</id>
+    <link href="https://lijiakaijun.me/posts/11706.html"/>
+    <id>https://lijiakaijun.me/posts/11706.html</id>
     <published>2020-04-06T14:48:23.000Z</published>
     <updated>2021-04-11T04:56:17.214Z</updated>
     
@@ -1247,15 +1247,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>在Github上修改文件后jsDelivr调取时仍然调取之前的缓存</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/44607.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/44607.html</id>
+    <link href="https://lijiakaijun.me/posts/44607.html"/>
+    <id>https://lijiakaijun.me/posts/44607.html</id>
     <published>2020-04-05T08:13:30.000Z</published>
     <updated>2021-04-11T04:56:46.741Z</updated>
     
@@ -1266,21 +1266,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
-    <category term="Github" scheme="https://blog.lijiakaijun.cyou/tags/Github/"/>
+    <category term="Github" scheme="https://lijiakaijun.me/tags/Github/"/>
     
-    <category term="jsDelivr" scheme="https://blog.lijiakaijun.cyou/tags/jsDelivr/"/>
+    <category term="jsDelivr" scheme="https://lijiakaijun.me/tags/jsDelivr/"/>
     
   </entry>
   
   <entry>
     <title>最近需要咕咕咕一会</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/1947.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/1947.html</id>
+    <link href="https://lijiakaijun.me/posts/1947.html"/>
+    <id>https://lijiakaijun.me/posts/1947.html</id>
     <published>2020-03-28T14:00:44.000Z</published>
     <updated>2021-03-12T12:36:23.769Z</updated>
     
@@ -1292,17 +1292,17 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="有隐藏内容" scheme="https://blog.lijiakaijun.cyou/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
+    <category term="有隐藏内容" scheme="https://lijiakaijun.me/tags/%E6%9C%89%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>此为私人文章=_=</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/63534.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/63534.html</id>
+    <link href="https://lijiakaijun.me/posts/63534.html"/>
+    <id>https://lijiakaijun.me/posts/63534.html</id>
     <published>2020-03-19T03:21:29.000Z</published>
     <updated>2021-03-12T12:36:23.767Z</updated>
     
@@ -1318,8 +1318,8 @@
   
   <entry>
     <title>Github Pages使用Cloudflare SSL后的重定向过多问题</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/4176.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/4176.html</id>
+    <link href="https://lijiakaijun.me/posts/4176.html"/>
+    <id>https://lijiakaijun.me/posts/4176.html</id>
     <published>2020-03-18T01:42:29.000Z</published>
     <updated>2021-04-11T04:57:37.294Z</updated>
     
@@ -1337,21 +1337,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Github" scheme="https://blog.lijiakaijun.cyou/tags/Github/"/>
+    <category term="Github" scheme="https://lijiakaijun.me/tags/Github/"/>
     
-    <category term="Cloudflare" scheme="https://blog.lijiakaijun.cyou/tags/Cloudflare/"/>
+    <category term="Cloudflare" scheme="https://lijiakaijun.me/tags/Cloudflare/"/>
     
-    <category term="SSL" scheme="https://blog.lijiakaijun.cyou/tags/SSL/"/>
+    <category term="SSL" scheme="https://lijiakaijun.me/tags/SSL/"/>
     
   </entry>
   
   <entry>
     <title>我太忙了QwQ</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/29558.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/29558.html</id>
+    <link href="https://lijiakaijun.me/posts/29558.html"/>
+    <id>https://lijiakaijun.me/posts/29558.html</id>
     <published>2020-03-14T04:42:53.000Z</published>
     <updated>2021-03-12T12:36:23.752Z</updated>
     
@@ -1362,15 +1362,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>尝试用Sakura Frp映射Minecraft Java局域网游戏</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/30467.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/30467.html</id>
+    <link href="https://lijiakaijun.me/posts/30467.html"/>
+    <id>https://lijiakaijun.me/posts/30467.html</id>
     <published>2020-02-22T10:52:54.000Z</published>
     <updated>2021-04-11T04:58:45.401Z</updated>
     
@@ -1390,21 +1390,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="内网穿透" scheme="https://blog.lijiakaijun.cyou/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    <category term="内网穿透" scheme="https://lijiakaijun.me/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
     
-    <category term="Minecraft" scheme="https://blog.lijiakaijun.cyou/tags/Minecraft/"/>
+    <category term="Minecraft" scheme="https://lijiakaijun.me/tags/Minecraft/"/>
     
-    <category term="尝试失败" scheme="https://blog.lijiakaijun.cyou/tags/%E5%B0%9D%E8%AF%95%E5%A4%B1%E8%B4%A5/"/>
+    <category term="尝试失败" scheme="https://lijiakaijun.me/tags/%E5%B0%9D%E8%AF%95%E5%A4%B1%E8%B4%A5/"/>
     
   </entry>
   
   <entry>
     <title>2个Bilibili UWP版</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/35688.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/35688.html</id>
+    <link href="https://lijiakaijun.me/posts/35688.html"/>
+    <id>https://lijiakaijun.me/posts/35688.html</id>
     <published>2020-02-22T02:14:17.000Z</published>
     <updated>2021-04-11T04:59:24.661Z</updated>
     
@@ -1423,19 +1423,19 @@
     
     
     
-    <category term="其他" scheme="https://blog.lijiakaijun.cyou/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://lijiakaijun.me/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
-    <category term="bilibili" scheme="https://blog.lijiakaijun.cyou/tags/bilibili/"/>
+    <category term="bilibili" scheme="https://lijiakaijun.me/tags/bilibili/"/>
     
   </entry>
   
   <entry>
     <title>无外网ip的电脑通过内网穿透来开Minecraft Java服务器</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/25103.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/25103.html</id>
+    <link href="https://lijiakaijun.me/posts/25103.html"/>
+    <id>https://lijiakaijun.me/posts/25103.html</id>
     <published>2020-02-22T01:03:17.000Z</published>
     <updated>2021-04-11T05:00:30.402Z</updated>
     
@@ -1454,21 +1454,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
-    <category term="内网穿透" scheme="https://blog.lijiakaijun.cyou/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    <category term="内网穿透" scheme="https://lijiakaijun.me/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
     
-    <category term="Minecraft" scheme="https://blog.lijiakaijun.cyou/tags/Minecraft/"/>
+    <category term="Minecraft" scheme="https://lijiakaijun.me/tags/Minecraft/"/>
     
   </entry>
   
   <entry>
     <title>下载腾讯视频</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/19711.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/19711.html</id>
+    <link href="https://lijiakaijun.me/posts/19711.html"/>
+    <id>https://lijiakaijun.me/posts/19711.html</id>
     <published>2020-02-12T08:53:05.000Z</published>
     <updated>2021-04-11T05:01:08.364Z</updated>
     
@@ -1485,21 +1485,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
-    <category term="下载" scheme="https://blog.lijiakaijun.cyou/tags/%E4%B8%8B%E8%BD%BD/"/>
+    <category term="下载" scheme="https://lijiakaijun.me/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-    <category term="视频" scheme="https://blog.lijiakaijun.cyou/tags/%E8%A7%86%E9%A2%91/"/>
+    <category term="视频" scheme="https://lijiakaijun.me/tags/%E8%A7%86%E9%A2%91/"/>
     
   </entry>
   
   <entry>
     <title>使用Sakura Frp为无外网ip的电脑进行远程桌面【2020年2月重新修改版】</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/3356.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/3356.html</id>
+    <link href="https://lijiakaijun.me/posts/3356.html"/>
+    <id>https://lijiakaijun.me/posts/3356.html</id>
     <published>2020-02-11T12:46:18.000Z</published>
     <updated>2021-04-11T05:03:23.918Z</updated>
     
@@ -1516,21 +1516,21 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
-    <category term="内网映射" scheme="https://blog.lijiakaijun.cyou/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/"/>
+    <category term="内网映射" scheme="https://lijiakaijun.me/tags/%E5%86%85%E7%BD%91%E6%98%A0%E5%B0%84/"/>
     
-    <category term="远程桌面" scheme="https://blog.lijiakaijun.cyou/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
+    <category term="远程桌面" scheme="https://lijiakaijun.me/tags/%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2/"/>
     
   </entry>
   
   <entry>
     <title>来冒个泡了</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/46481.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/46481.html</id>
+    <link href="https://lijiakaijun.me/posts/46481.html"/>
+    <id>https://lijiakaijun.me/posts/46481.html</id>
     <published>2020-01-31T12:02:08.000Z</published>
     <updated>2021-03-12T12:36:23.693Z</updated>
     
@@ -1550,15 +1550,15 @@
     
     
     
-    <category term="日常" scheme="https://blog.lijiakaijun.cyou/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://lijiakaijun.me/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
   </entry>
   
   <entry>
     <title>让QQ变透明</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/48678.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/48678.html</id>
+    <link href="https://lijiakaijun.me/posts/48678.html"/>
+    <id>https://lijiakaijun.me/posts/48678.html</id>
     <published>2019-10-26T12:23:40.000Z</published>
     <updated>2021-04-11T05:05:13.886Z</updated>
     
@@ -1577,19 +1577,19 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="电脑" scheme="https://blog.lijiakaijun.cyou/tags/%E7%94%B5%E8%84%91/"/>
+    <category term="电脑" scheme="https://lijiakaijun.me/tags/%E7%94%B5%E8%84%91/"/>
     
-    <category term="QQ" scheme="https://blog.lijiakaijun.cyou/tags/QQ/"/>
+    <category term="QQ" scheme="https://lijiakaijun.me/tags/QQ/"/>
     
   </entry>
   
   <entry>
     <title>关于Windows 10中的一些似乎未曾发现的东西</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/58067.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/58067.html</id>
+    <link href="https://lijiakaijun.me/posts/58067.html"/>
+    <id>https://lijiakaijun.me/posts/58067.html</id>
     <published>2019-10-01T15:00:26.000Z</published>
     <updated>2021-04-11T05:05:33.223Z</updated>
     
@@ -1606,17 +1606,17 @@
     
     
     
-    <category term="笔记" scheme="https://blog.lijiakaijun.cyou/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://lijiakaijun.me/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Windows" scheme="https://blog.lijiakaijun.cyou/tags/Windows/"/>
+    <category term="Windows" scheme="https://lijiakaijun.me/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>测试代码</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/11331.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/11331.html</id>
+    <link href="https://lijiakaijun.me/posts/11331.html"/>
+    <id>https://lijiakaijun.me/posts/11331.html</id>
     <published>2019-10-01T15:00:01.000Z</published>
     <updated>2021-03-12T12:36:23.675Z</updated>
     
@@ -1633,17 +1633,17 @@
     
     
     
-    <category term="已经关闭评论的文章" scheme="https://blog.lijiakaijun.cyou/categories/%E5%B7%B2%E7%BB%8F%E5%85%B3%E9%97%AD%E8%AF%84%E8%AE%BA%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+    <category term="已经关闭评论的文章" scheme="https://lijiakaijun.me/categories/%E5%B7%B2%E7%BB%8F%E5%85%B3%E9%97%AD%E8%AF%84%E8%AE%BA%E7%9A%84%E6%96%87%E7%AB%A0/"/>
     
     
-    <category term="网站" scheme="https://blog.lijiakaijun.cyou/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://lijiakaijun.me/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
   <entry>
     <title>彩蛋</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/53744.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/53744.html</id>
+    <link href="https://lijiakaijun.me/posts/53744.html"/>
+    <id>https://lijiakaijun.me/posts/53744.html</id>
     <published>2019-10-01T14:58:35.000Z</published>
     <updated>2021-03-12T12:36:23.666Z</updated>
     
@@ -1662,15 +1662,15 @@
     
     
     
-    <category term="其他" scheme="https://blog.lijiakaijun.cyou/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://lijiakaijun.me/categories/%E5%85%B6%E4%BB%96/"/>
     
     
   </entry>
   
   <entry>
     <title>这是我的第一个文章</title>
-    <link href="https://blog.lijiakaijun.cyou/posts/1575.html"/>
-    <id>https://blog.lijiakaijun.cyou/posts/1575.html</id>
+    <link href="https://lijiakaijun.me/posts/1575.html"/>
+    <id>https://lijiakaijun.me/posts/1575.html</id>
     <published>2019-09-14T02:08:34.000Z</published>
     <updated>2021-03-12T12:36:23.636Z</updated>
     
@@ -1692,7 +1692,7 @@
     
     
     
-    <category term="其他" scheme="https://blog.lijiakaijun.cyou/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://lijiakaijun.me/categories/%E5%85%B6%E4%BB%96/"/>
     
     
   </entry>
